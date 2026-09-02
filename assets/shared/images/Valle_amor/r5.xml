@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="r5.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="r50000" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50001" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50002" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50003" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50004" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50005" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50006" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50007" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50008" x="0" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50009" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50010" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50011" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50012" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50013" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50014" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50015" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50016" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50017" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50018" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50019" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50020" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50021" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50022" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50023" x="2298" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50024" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50025" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50026" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50027" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50028" x="1149" y="0" width="1149" height="1573"/>
+	<SubTexture name="r50029" x="1149" y="0" width="1149" height="1573"/>
+</TextureAtlas>

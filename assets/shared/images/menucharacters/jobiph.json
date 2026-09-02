@@ -1,0 +1,11 @@
+{
+	"idle_anim": "idle",
+	"confirm_anim": "",
+	"position": [
+		330,
+		21
+	],
+	"scale": 0.45,
+	"flipX": false,
+	"image": "Menu_jobiph"
+}

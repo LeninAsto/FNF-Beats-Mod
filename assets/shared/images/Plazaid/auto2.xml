@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="auto2.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="carro20000" x="0" y="0" width="1176" height="522" frameX="0" frameY="-5" frameWidth="1176" frameHeight="527"/>
+	<SubTexture name="carro20001" x="0" y="0" width="1176" height="522" frameX="0" frameY="-5" frameWidth="1176" frameHeight="527"/>
+	<SubTexture name="carro20002" x="1176" y="0" width="1167" height="509" frameX="-9" frameY="-18" frameWidth="1176" frameHeight="527"/>
+	<SubTexture name="carro20003" x="1176" y="0" width="1167" height="509" frameX="-9" frameY="-18" frameWidth="1176" frameHeight="527"/>
+	<SubTexture name="carro20004" x="2343" y="0" width="1171" height="527" frameX="-5" frameY="0" frameWidth="1176" frameHeight="527"/>
+	<SubTexture name="carro20005" x="2343" y="0" width="1171" height="527" frameX="-5" frameY="0" frameWidth="1176" frameHeight="527"/>
+	<SubTexture name="carro20006" x="0" y="527" width="1166" height="506" frameX="-10" frameY="-21" frameWidth="1176" frameHeight="527"/>
+	<SubTexture name="carro20007" x="0" y="527" width="1166" height="506" frameX="-10" frameY="-21" frameWidth="1176" frameHeight="527"/>
+</TextureAtlas>

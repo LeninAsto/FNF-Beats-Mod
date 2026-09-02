@@ -16,6 +16,13 @@ class ScriptGlobals {
 	static var keepCutsceneHandler:Class<cutscenes.CutsceneHandler> = cutscenes.CutsceneHandler;
 	static var keepRainShader:Class<shaders.RainShader> = shaders.RainShader;
 	static var keepGameOverSubstate:Class<substates.GameOverSubstate> = substates.GameOverSubstate;
+	static var keepMainMenuState:Class<states.MainMenuState> = states.MainMenuState;
+	static var keepStoryMenuState:Class<states.StoryMenuState> = states.StoryMenuState;
+	static var keepFreeplayState:Class<states.FreeplayState> = states.FreeplayState;
+	static var keepFreeplayStateSelector:Class<states.FreeplayStateSelector> = states.FreeplayStateSelector;
+	static var keepCreditsState:Class<states.CreditsState> = states.CreditsState;
+	static var keepAchievementsMenuState:Class<states.AchievementsMenuState> = states.AchievementsMenuState;
+	static var keepOptionsState:Class<options.OptionsState> = options.OptionsState;
 
 	public static final TYPE_IMPORTS:Array<String> = [
 		'backend.Paths',
@@ -50,8 +57,15 @@ class ScriptGlobals {
 		'scripting.ScriptError',
 		'cutscenes.CutsceneHandler',
 		'shaders.RainShader',
+		'states.MainMenuState',
+		'states.StoryMenuState',
 		'states.PlayState',
+		'states.FreeplayState',
+		'states.FreeplayStateSelector',
+		'states.CreditsState',
+		'states.AchievementsMenuState',
 		'states.LoadingState',
+		'options.OptionsState',
 		'substates.GameOverSubstate',
 		'flixel.FlxG',
 		'flixel.FlxBasic',

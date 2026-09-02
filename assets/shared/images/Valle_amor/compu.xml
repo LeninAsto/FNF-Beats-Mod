@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="compu.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="compu0000" x="0" y="0" width="287" height="247"/>
+	<SubTexture name="compu0001" x="0" y="0" width="287" height="247"/>
+	<SubTexture name="compu0002" x="289" y="0" width="287" height="247"/>
+	<SubTexture name="compu0003" x="289" y="0" width="287" height="247"/>
+	<SubTexture name="compu0004" x="578" y="0" width="287" height="247"/>
+	<SubTexture name="compu0005" x="578" y="0" width="287" height="247"/>
+	<SubTexture name="compu0006" x="0" y="249" width="287" height="247"/>
+	<SubTexture name="compu0007" x="0" y="249" width="287" height="247"/>
+	<SubTexture name="compu0008" x="289" y="249" width="287" height="247"/>
+	<SubTexture name="compu0009" x="289" y="249" width="287" height="247"/>
+</TextureAtlas>

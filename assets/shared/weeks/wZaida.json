@@ -1,0 +1,50 @@
+{
+	"storyName": "plazaid",
+	"difficulties": "Easy, Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "zaida",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"relajate",
+			"zaida",
+			[
+				235,
+				193,
+				255
+			]
+		],
+		[
+			"sonrisas",
+			"zaida",
+			[
+				235,
+				193,
+				255
+			]
+		],
+		[
+			"jersey-friday",
+			"zaida",
+			[
+				235,
+				193,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"zaida",
+		"pinkbf",
+		"rebeca"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "plazaid"
+}

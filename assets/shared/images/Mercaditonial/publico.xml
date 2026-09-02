@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="publico.png" width="883" height="665">
+	<SubTexture name="azules0000" x="632" y="233" width="102" height="203" frameX="-1769" frameY="-2" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="azules0001" x="632" y="233" width="102" height="203" frameX="-1769" frameY="-2" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="azules0002" x="632" y="233" width="102" height="203" frameX="-1769" frameY="-2" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="azules0003" x="443" y="236" width="94" height="206" frameX="-1775" frameY="-3" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="azules0004" x="443" y="236" width="94" height="206" frameX="-1775" frameY="-3" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="azules0005" x="443" y="236" width="94" height="206" frameX="-1775" frameY="-3" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="azules0006" x="539" y="233" width="91" height="206" frameX="-1779" frameY="-1" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="azules0007" x="539" y="233" width="91" height="206" frameX="-1779" frameY="-1" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="azules0008" x="539" y="233" width="91" height="206" frameX="-1779" frameY="-1" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0000" x="449" y="444" width="189" height="192" frameX="-1078" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0001" x="449" y="444" width="189" height="192" frameX="-1078" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0002" x="449" y="444" width="189" height="192" frameX="-1078" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0003" x="2" y="468" width="187" height="195" frameX="-1080" frameY="-10" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0004" x="2" y="468" width="187" height="195" frameX="-1080" frameY="-10" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0005" x="2" y="468" width="187" height="195" frameX="-1080" frameY="-10" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0006" x="640" y="438" width="184" height="190" frameX="-1079" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0007" x="640" y="438" width="184" height="190" frameX="-1079" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="amarillos0008" x="640" y="438" width="184" height="190" frameX="-1079" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0000" x="2" y="236" width="439" height="230" frameX="-0" frameY="-4" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0001" x="2" y="236" width="439" height="230" frameX="-0" frameY="-4" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0002" x="2" y="236" width="439" height="230" frameX="-0" frameY="-4" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0003" x="2" y="2" width="442" height="232" frameX="-2" frameY="-0" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0004" x="2" y="2" width="442" height="232" frameX="-2" frameY="-0" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0005" x="2" y="2" width="442" height="232" frameX="-2" frameY="-0" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0006" x="446" y="2" width="435" height="229" frameX="-7" frameY="-0" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0007" x="446" y="2" width="435" height="229" frameX="-7" frameY="-0" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="rojos0008" x="446" y="2" width="435" height="229" frameX="-7" frameY="-0" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0000" x="191" y="468" width="129" height="194" frameX="-588" frameY="-11" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0001" x="191" y="468" width="129" height="194" frameX="-588" frameY="-11" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0002" x="191" y="468" width="129" height="194" frameX="-588" frameY="-11" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0003" x="736" y="233" width="125" height="193" frameX="-591" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0004" x="736" y="233" width="125" height="193" frameX="-591" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0005" x="736" y="233" width="125" height="193" frameX="-591" frameY="-13" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0006" x="322" y="468" width="125" height="194" frameX="-589" frameY="-9" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0007" x="322" y="468" width="125" height="194" frameX="-589" frameY="-9" frameWidth="1871" frameHeight="234"/>
+	<SubTexture name="verdes0008" x="322" y="468" width="125" height="194" frameX="-589" frameY="-9" frameWidth="1871" frameHeight="234"/>
+</TextureAtlas>

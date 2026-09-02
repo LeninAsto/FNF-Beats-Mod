@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="luz.png" width="2392" height="1273">
+	<SubTexture name="luz0001" x="2" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0002" x="2" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0003" x="2" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0004" x="2" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0005" x="2" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0006" x="2" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0007" x="2" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0008" x="2" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0009" x="1197" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0010" x="1197" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0011" x="1197" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0012" x="1197" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0013" x="1197" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0014" x="1197" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0015" x="1197" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+	<SubTexture name="luz0016" x="1197" y="2" width="1193" height="1269" frameX="-53" frameY="-13" frameWidth="1253" frameHeight="1317"/>
+</TextureAtlas>

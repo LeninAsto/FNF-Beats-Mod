@@ -1,5 +1,6 @@
 package states;
 
+#if MODS_ALLOWED
 import backend.WeekData;
 import backend.Mods;
 import backend.ScriptableState;
@@ -1194,3 +1195,56 @@ class MenuButton extends FlxSpriteGroup {
 		spr.y = bg.height / 2 - spr.height / 2;
 	}
 }
+#else
+import flixel.group.FlxSpriteGroup;
+import flixel.graphics.FlxGraphic;
+
+class ModsMenuState extends MusicBeatState
+{
+	public function new(startMod:String = null, vsliceMode:Bool = false, returnToSelector:Bool = false)
+	{
+		super();
+	}
+
+	override function create()
+	{
+		super.create();
+		MusicBeatState.switchState(new MainMenuState());
+	}
+}
+
+class ModItem extends FlxSpriteGroup
+{
+	public var folder:String = '';
+
+	public function new(folder:String = '', vsliceMode:Bool = false)
+	{
+		super();
+		this.folder = folder;
+	}
+}
+
+class MenuButton extends FlxSpriteGroup
+{
+	public var onClick:Void->Void = null;
+	public var enabled(default, set):Bool = true;
+	public var onFocus(default, set):Bool = false;
+
+	public function new(x:Float = 0, y:Float = 0, width:Int = 0, height:Int = 0, ?text:String = null, ?img:FlxGraphic = null,
+			onClick:Void->Void = null, animWidth:Int = 0, animHeight:Int = 0)
+	{
+		super(x, y);
+		this.onClick = onClick;
+	}
+
+	function set_enabled(value:Bool):Bool
+	{
+		return enabled = value;
+	}
+
+	function set_onFocus(value:Bool):Bool
+	{
+		return onFocus = value;
+	}
+}
+#end

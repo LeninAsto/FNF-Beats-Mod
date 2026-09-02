@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cars.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="carro10000" x="0" y="0" width="519" height="236"/>
+	<SubTexture name="carro10001" x="0" y="0" width="519" height="236"/>
+	<SubTexture name="carro10002" x="519" y="0" width="519" height="236"/>
+	<SubTexture name="carro10003" x="519" y="0" width="519" height="236"/>
+	<SubTexture name="carro10004" x="0" y="0" width="519" height="236"/>
+	<SubTexture name="carro10005" x="0" y="0" width="519" height="236"/>
+	<SubTexture name="carro10006" x="519" y="0" width="519" height="236"/>
+	<SubTexture name="carro10007" x="519" y="0" width="519" height="236"/>
+	<SubTexture name="carro20000" x="1038" y="0" width="565" height="169"/>
+	<SubTexture name="carro20001" x="1038" y="0" width="565" height="169"/>
+	<SubTexture name="carro20002" x="0" y="236" width="565" height="169"/>
+	<SubTexture name="carro20003" x="0" y="236" width="565" height="169"/>
+	<SubTexture name="carro20004" x="1038" y="0" width="565" height="169"/>
+	<SubTexture name="carro20005" x="1038" y="0" width="565" height="169"/>
+	<SubTexture name="carro20006" x="0" y="236" width="565" height="169"/>
+	<SubTexture name="carro20007" x="0" y="236" width="565" height="169"/>
+	<SubTexture name="carro30000" x="565" y="236" width="841" height="387"/>
+	<SubTexture name="carro30001" x="565" y="236" width="841" height="387"/>
+	<SubTexture name="carro30002" x="0" y="623" width="841" height="387"/>
+	<SubTexture name="carro30003" x="0" y="623" width="841" height="387"/>
+	<SubTexture name="carro30004" x="565" y="236" width="841" height="387"/>
+	<SubTexture name="carro30005" x="565" y="236" width="841" height="387"/>
+	<SubTexture name="carro30006" x="0" y="623" width="841" height="387"/>
+	<SubTexture name="carro30007" x="0" y="623" width="841" height="387"/>
+	<SubTexture name="carro40000" x="841" y="623" width="722" height="385"/>
+	<SubTexture name="carro40001" x="841" y="623" width="722" height="385"/>
+	<SubTexture name="carro40002" x="0" y="1010" width="722" height="385"/>
+	<SubTexture name="carro40003" x="0" y="1010" width="722" height="385"/>
+	<SubTexture name="carro40004" x="841" y="623" width="722" height="385"/>
+	<SubTexture name="carro40005" x="841" y="623" width="722" height="385"/>
+	<SubTexture name="carro40006" x="0" y="1010" width="722" height="385"/>
+	<SubTexture name="carro40007" x="0" y="1010" width="722" height="385"/>
+	<SubTexture name="carro50000" x="722" y="1010" width="813" height="437"/>
+	<SubTexture name="carro50001" x="722" y="1010" width="813" height="437"/>
+	<SubTexture name="carro50002" x="0" y="1447" width="813" height="437"/>
+	<SubTexture name="carro50003" x="0" y="1447" width="813" height="437"/>
+	<SubTexture name="carro50004" x="722" y="1010" width="813" height="437"/>
+	<SubTexture name="carro50005" x="722" y="1010" width="813" height="437"/>
+	<SubTexture name="carro50006" x="0" y="1447" width="813" height="437"/>
+	<SubTexture name="carro50007" x="0" y="1447" width="813" height="437"/>
+</TextureAtlas>

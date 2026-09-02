@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rs1.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="r30000" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30001" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30002" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30003" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30004" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30005" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30006" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30007" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30008" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30009" x="0" y="0" width="755" height="674"/>
+	<SubTexture name="r30010" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30011" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30012" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30013" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30014" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30015" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30016" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30017" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30018" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30019" x="755" y="0" width="755" height="674"/>
+	<SubTexture name="r30020" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30021" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30022" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30023" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30024" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30025" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30026" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30027" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30028" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r30029" x="0" y="674" width="755" height="674"/>
+	<SubTexture name="r40000" x="755" y="674" width="405" height="569"/>
+	<SubTexture name="r40001" x="755" y="674" width="405" height="569"/>
+	<SubTexture name="r40002" x="755" y="674" width="405" height="569"/>
+	<SubTexture name="r40003" x="755" y="674" width="405" height="569"/>
+	<SubTexture name="r40004" x="755" y="674" width="405" height="569"/>
+	<SubTexture name="r40005" x="1160" y="674" width="405" height="569"/>
+	<SubTexture name="r40006" x="1160" y="674" width="405" height="569"/>
+	<SubTexture name="r40007" x="1160" y="674" width="405" height="569"/>
+	<SubTexture name="r40008" x="1160" y="674" width="405" height="569"/>
+	<SubTexture name="r40009" x="1160" y="674" width="405" height="569"/>
+	<SubTexture name="z10000" x="1565" y="674" width="281" height="365"/>
+	<SubTexture name="z10001" x="1565" y="674" width="281" height="365"/>
+	<SubTexture name="z10002" x="1565" y="674" width="281" height="365"/>
+	<SubTexture name="z10003" x="1565" y="674" width="281" height="365"/>
+	<SubTexture name="z10004" x="1565" y="674" width="281" height="365"/>
+	<SubTexture name="z10005" x="0" y="1348" width="281" height="365"/>
+	<SubTexture name="z10006" x="0" y="1348" width="281" height="365"/>
+	<SubTexture name="z10007" x="0" y="1348" width="281" height="365"/>
+	<SubTexture name="z10008" x="0" y="1348" width="281" height="365"/>
+	<SubTexture name="z10009" x="0" y="1348" width="281" height="365"/>
+	<SubTexture name="z10010" x="281" y="1348" width="281" height="365"/>
+	<SubTexture name="z10011" x="281" y="1348" width="281" height="365"/>
+	<SubTexture name="z10012" x="281" y="1348" width="281" height="365"/>
+	<SubTexture name="z10013" x="281" y="1348" width="281" height="365"/>
+	<SubTexture name="z10014" x="281" y="1348" width="281" height="365"/>
+</TextureAtlas>

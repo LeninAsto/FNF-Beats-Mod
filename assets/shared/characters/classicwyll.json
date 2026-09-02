@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				116,
+				-180
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle Dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				65,
+				-213
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "singLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				71,
+				-191
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "singRIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				142,
+				-153
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "singUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				469,
+				125
+			],
+			"anim": "gunshot",
+			"fps": 24,
+			"name": "shoot",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				97,
+				-238
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "singDOWN",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/classicwyll",
+	"position": [
+		130,
+		10
+	],
+	"healthicon": "armwyll",
+	"flip_x": true,
+	"healthbar_colors": [
+		179,
+		76,
+		76
+	],
+	"camera_position": [
+		0,
+		180
+	],
+	"sing_duration": 4,
+	"scale": 0.95
+}

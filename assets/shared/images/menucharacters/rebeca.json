@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "idle",
+	"idle_anim": "idle",
+	"position": [
+		97,
+		188
+	],
+	"scale": 0.45,
+	"image": "Menu_rebeca",
+	"flipX": false
+}

@@ -1,0 +1,11 @@
+{
+	"idle_anim": "idle",
+	"confirm_anim": "",
+	"position": [
+		-13,
+		70
+	],
+	"scale": 0.55,
+	"flipX": false,
+	"image": "Menu_rekin"
+}

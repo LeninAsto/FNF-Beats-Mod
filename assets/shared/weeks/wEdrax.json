@@ -1,0 +1,50 @@
+{
+	"storyName": "metrodrax",
+	"difficulties": "Easy, Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "edrax",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"city alley",
+			"edrax",
+			[
+				155,
+				153,
+				200
+			]
+		],
+		[
+			"Dribbling Nation",
+			"edrax",
+			[
+				155,
+				153,
+				200
+			]
+		],
+		[
+			"impatience",
+			"edrax",
+			[
+				155,
+				153,
+				200
+			]
+		]
+	],
+	"weekCharacters": [
+		"edrax",
+		"pastelbf",
+		"rekin"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "metrodrax"
+}

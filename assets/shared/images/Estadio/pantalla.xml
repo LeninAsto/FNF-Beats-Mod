@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pantalla.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pantalla0000" x="0" y="0" width="1893" height="824"/>
+	<SubTexture name="pantalla0001" x="0" y="0" width="1893" height="824"/>
+	<SubTexture name="pantalla0002" x="1895" y="0" width="1893" height="824"/>
+	<SubTexture name="pantalla0003" x="1895" y="0" width="1893" height="824"/>
+	<SubTexture name="pantalla0004" x="0" y="826" width="1893" height="824"/>
+	<SubTexture name="pantalla0005" x="0" y="826" width="1893" height="824"/>
+	<SubTexture name="pantalla0006" x="1895" y="826" width="1893" height="824"/>
+	<SubTexture name="pantalla0007" x="1895" y="826" width="1893" height="824"/>
+	<SubTexture name="pantalla0008" x="0" y="1652" width="1893" height="824"/>
+	<SubTexture name="pantalla0009" x="0" y="1652" width="1893" height="824"/>
+	<SubTexture name="pantalla0010" x="1895" y="1652" width="1893" height="824"/>
+	<SubTexture name="pantalla0011" x="1895" y="1652" width="1893" height="824"/>
+	<SubTexture name="pantalla0012" x="0" y="2478" width="1893" height="824"/>
+	<SubTexture name="pantalla0013" x="0" y="2478" width="1893" height="824"/>
+	<SubTexture name="pantalla0014" x="1895" y="2478" width="1893" height="824"/>
+	<SubTexture name="pantalla0015" x="1895" y="2478" width="1893" height="824"/>
+</TextureAtlas>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bocinas.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bocina10000" x="0" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10001" x="0" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10002" x="337" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10003" x="337" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10004" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10005" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10006" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10007" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10008" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10009" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10010" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10011" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina10012" x="674" y="0" width="337" height="417"/>
+	<SubTexture name="bocina20000" x="0" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20001" x="0" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20002" x="338" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20003" x="338" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20004" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20005" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20006" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20007" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20008" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20009" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20010" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20011" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20012" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20013" x="676" y="417" width="338" height="417"/>
+	<SubTexture name="bocina20014" x="676" y="417" width="338" height="417"/>
+</TextureAtlas>

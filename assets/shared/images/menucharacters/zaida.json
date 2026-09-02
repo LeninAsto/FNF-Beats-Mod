@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "idle",
+	"idle_anim": "idle",
+	"position": [
+		73,
+		30
+	],
+	"scale": 0.55,
+	"image": "Menu_zaida",
+	"flipX": false
+}

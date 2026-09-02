@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="publico1.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="publico10000" x="0" y="0" width="2565" height="651"/>
+	<SubTexture name="publico10001" x="0" y="0" width="2565" height="651"/>
+	<SubTexture name="publico10002" x="0" y="0" width="2565" height="651"/>
+	<SubTexture name="publico10003" x="0" y="0" width="2565" height="651"/>
+	<SubTexture name="publico10004" x="0" y="0" width="2565" height="651"/>
+	<SubTexture name="publico10005" x="0" y="651" width="2565" height="651"/>
+	<SubTexture name="publico10006" x="0" y="651" width="2565" height="651"/>
+	<SubTexture name="publico10007" x="0" y="651" width="2565" height="651"/>
+	<SubTexture name="publico10008" x="0" y="651" width="2565" height="651"/>
+	<SubTexture name="publico10009" x="0" y="651" width="2565" height="651"/>
+	<SubTexture name="publico10010" x="0" y="1302" width="2565" height="651"/>
+	<SubTexture name="publico10011" x="0" y="1302" width="2565" height="651"/>
+	<SubTexture name="publico10012" x="0" y="1302" width="2565" height="651"/>
+	<SubTexture name="publico10013" x="0" y="1302" width="2565" height="651"/>
+	<SubTexture name="publico10014" x="0" y="1302" width="2565" height="651"/>
+</TextureAtlas>

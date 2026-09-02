@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Pause Stuff.png" width="1142" height="912">
+	<SubTexture name="flecha0000" x="662" y="607" width="153" height="110" frameX="-0" frameY="-3" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0001" x="662" y="607" width="153" height="110" frameX="-0" frameY="-3" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0002" x="817" y="607" width="148" height="86" frameX="-2" frameY="-15" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0003" x="817" y="607" width="148" height="86" frameX="-2" frameY="-15" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0004" x="662" y="837" width="143" height="56" frameX="-5" frameY="-30" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0005" x="662" y="837" width="143" height="56" frameX="-5" frameY="-30" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0006" x="967" y="607" width="129" height="111" frameX="-12" frameY="-2" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0007" x="967" y="607" width="129" height="111" frameX="-12" frameY="-2" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0008" x="662" y="719" width="153" height="116" frameX="-0" frameY="-0" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="flecha0009" x="662" y="719" width="153" height="116" frameX="-0" frameY="-0" frameWidth="153" frameHeight="116"/>
+	<SubTexture name="PauseBase0000" x="2" y="2" width="658" height="908" frameX="-0" frameY="-0" frameWidth="673" frameHeight="908"/>
+	<SubTexture name="reanudar0000" x="662" y="2" width="478" height="197" frameX="-3" frameY="-3" frameWidth="485" frameHeight="204"/>
+	<SubTexture name="reiniciar0000" x="662" y="201" width="457" height="209" frameX="-2" frameY="-5" frameWidth="467" frameHeight="219"/>
+	<SubTexture name="salir0000" x="662" y="412" width="360" height="193" frameX="-2" frameY="-4" frameWidth="369" frameHeight="203"/>
+</TextureAtlas>

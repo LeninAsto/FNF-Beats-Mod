@@ -1,0 +1,41 @@
+{
+	"storyName": "Valle amor",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "miglor",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"event",
+			"miglor",
+			[
+				255,
+				75,
+				135
+			]
+		],
+		[
+			"superstyle",
+			"miglor",
+			[
+				255,
+				75,
+				135
+			]
+		]
+	],
+	"weekCharacters": [
+		"miglor",
+		"redbf",
+		"jobiph"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "valle amor"
+}

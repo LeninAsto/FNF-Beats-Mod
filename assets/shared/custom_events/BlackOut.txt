@@ -1,0 +1,4 @@
+Blackout Characters and BG
+Only Value 1 is avaliable.
+true = on
+false = off

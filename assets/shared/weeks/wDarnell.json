@@ -1,0 +1,50 @@
+{
+	"storyName": "estadio",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "darnell",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"DRboy",
+			"darnell",
+			[
+				95,
+				73,
+				255
+			]
+		],
+		[
+			"darrel",
+			"darnell",
+			[
+				95,
+				73,
+				255
+			]
+		],
+		[
+			"fire",
+			"darnell",
+			[
+				95,
+				73,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"darnell",
+		"yellowbf",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "estadio"
+}

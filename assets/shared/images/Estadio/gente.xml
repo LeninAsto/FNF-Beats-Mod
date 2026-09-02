@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="gente.png" width="4142" height="4113">
+	<SubTexture name="gente0001" x="2" y="1375" width="4100" height="1367" frameX="-0" frameY="-4" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0002" x="2" y="1375" width="4100" height="1367" frameX="-0" frameY="-4" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0003" x="2" y="1375" width="4100" height="1367" frameX="-0" frameY="-4" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0004" x="2" y="1375" width="4100" height="1367" frameX="-0" frameY="-4" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0005" x="2" y="2744" width="4098" height="1367" frameX="-10" frameY="-4" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0006" x="2" y="2744" width="4098" height="1367" frameX="-10" frameY="-4" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0007" x="2" y="2744" width="4098" height="1367" frameX="-10" frameY="-4" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0008" x="2" y="2744" width="4098" height="1367" frameX="-10" frameY="-4" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0009" x="2" y="2" width="4138" height="1371" frameX="-10" frameY="-0" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0010" x="2" y="2" width="4138" height="1371" frameX="-10" frameY="-0" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0011" x="2" y="2" width="4138" height="1371" frameX="-10" frameY="-0" frameWidth="4148" frameHeight="1371"/>
+	<SubTexture name="gente0012" x="2" y="2" width="4138" height="1371" frameX="-10" frameY="-0" frameWidth="4148" frameHeight="1371"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "idle",
+	"idle_anim": "idle",
+	"position": [
+		112,
+		72
+	],
+	"scale": 0.5,
+	"image": "Menu_edrax",
+	"flipX": false
+}

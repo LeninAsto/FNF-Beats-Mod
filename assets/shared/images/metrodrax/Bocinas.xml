@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Bocinas.png" width="626" height="630">
+	<SubTexture name="bocina10001" x="2" y="2" width="114" height="200" frameX="-0" frameY="-0" frameWidth="114" frameHeight="200"/>
+	<SubTexture name="bocina10002" x="118" y="2" width="114" height="200" frameX="-0" frameY="-0" frameWidth="114" frameHeight="200"/>
+	<SubTexture name="bocina10003" x="234" y="2" width="114" height="200" frameX="-0" frameY="-0" frameWidth="114" frameHeight="200"/>
+	<SubTexture name="bocina10004" x="350" y="2" width="114" height="200" frameX="-0" frameY="-0" frameWidth="114" frameHeight="200"/>
+	<SubTexture name="bocina10005" x="466" y="2" width="114" height="200" frameX="-0" frameY="-0" frameWidth="114" frameHeight="200"/>
+	<SubTexture name="bocina10006" x="2" y="204" width="114" height="200" frameX="-0" frameY="-0" frameWidth="114" frameHeight="200"/>
+	<SubTexture name="bocina10007" x="118" y="204" width="114" height="200" frameX="-0" frameY="-0" frameWidth="114" frameHeight="200"/>
+	<SubTexture name="bocina10008" x="234" y="204" width="114" height="200" frameX="-0" frameY="-0" frameWidth="114" frameHeight="200"/>
+	<SubTexture name="bocina20001" x="350" y="204" width="102" height="211" frameX="-0" frameY="-0" frameWidth="102" frameHeight="211"/>
+	<SubTexture name="bocina20002" x="454" y="204" width="102" height="211" frameX="-0" frameY="-0" frameWidth="102" frameHeight="211"/>
+	<SubTexture name="bocina20003" x="2" y="406" width="102" height="211" frameX="-0" frameY="-0" frameWidth="102" frameHeight="211"/>
+	<SubTexture name="bocina20004" x="106" y="406" width="102" height="211" frameX="-0" frameY="-0" frameWidth="102" frameHeight="211"/>
+	<SubTexture name="bocina20005" x="210" y="406" width="102" height="211" frameX="-0" frameY="-0" frameWidth="102" frameHeight="211"/>
+	<SubTexture name="bocina20006" x="314" y="417" width="102" height="211" frameX="-0" frameY="-0" frameWidth="102" frameHeight="211"/>
+	<SubTexture name="bocina20007" x="418" y="417" width="102" height="211" frameX="-0" frameY="-0" frameWidth="102" frameHeight="211"/>
+	<SubTexture name="bocina20008" x="522" y="417" width="102" height="211" frameX="-0" frameY="-0" frameWidth="102" frameHeight="211"/>
+</TextureAtlas>

@@ -1,0 +1,50 @@
+{
+	"storyName": "skatepark",
+	"difficulties": "Easy, Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "bz",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"bz",
+		"greenbf",
+		"doublee"
+	],
+	"songs": [
+		[
+			"flaming hot",
+			"bz",
+			[
+				255,
+				173,
+				93
+			]
+		],
+		[
+			"RedVeins",
+			"bz",
+			[
+				255,
+				173,
+				93
+			]
+		],
+		[
+			"superflow",
+			"bz",
+			[
+				255,
+				173,
+				93
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "skatepark",
+	"hiddenUntilUnlocked": false
+}

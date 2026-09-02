@@ -1,0 +1,8 @@
+Event based on the song Kaboom
+Value 1:
+"On" to activate
+"Off" or blank to desactivate
+Value 2:
+Variable in number for intensity
+
+;3

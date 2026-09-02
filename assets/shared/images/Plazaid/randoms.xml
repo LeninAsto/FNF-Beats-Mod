@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="randoms.png" width="1216" height="1165">
+	<SubTexture name="random40000" x="419" y="2" width="412" height="391" frameX="-577" frameY="-11" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="random40001" x="419" y="2" width="412" height="391" frameX="-577" frameY="-11" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="random40002" x="2" y="404" width="413" height="396" frameX="-578" frameY="-5" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="random40003" x="2" y="404" width="413" height="396" frameX="-578" frameY="-5" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="random40004" x="2" y="2" width="415" height="400" frameX="-577" frameY="-0" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="random40005" x="2" y="2" width="415" height="400" frameX="-577" frameY="-0" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="random10000" x="1005" y="895" width="181" height="262" frameX="-0" frameY="-65" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10001" x="1005" y="895" width="181" height="262" frameX="-0" frameY="-65" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10002" x="1038" y="625" width="175" height="264" frameX="-3" frameY="-63" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10003" x="1038" y="625" width="175" height="264" frameX="-3" frameY="-63" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10004" x="833" y="895" width="170" height="266" frameX="-5" frameY="-61" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10005" x="833" y="895" width="170" height="266" frameX="-5" frameY="-61" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10006" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10007" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10008" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10009" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10010" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10011" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10012" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10013" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random10014" x="873" y="625" width="163" height="268" frameX="-9" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20000" x="283" y="802" width="287" height="358" frameX="-1572" frameY="-13" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20001" x="283" y="802" width="287" height="358" frameX="-1572" frameY="-13" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20002" x="2" y="802" width="279" height="361" frameX="-1576" frameY="-10" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20003" x="2" y="802" width="279" height="361" frameX="-1576" frameY="-10" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20004" x="417" y="404" width="266" height="367" frameX="-1582" frameY="-4" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20005" x="417" y="404" width="266" height="367" frameX="-1582" frameY="-4" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20006" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20007" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20008" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20009" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20010" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20011" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20012" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20013" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random20014" x="572" y="773" width="259" height="347" frameX="-1586" frameY="-0" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30000" x="1014" y="316" width="200" height="307" frameX="-1985" frameY="-64" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30001" x="1014" y="316" width="200" height="307" frameX="-1985" frameY="-64" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30002" x="1014" y="2" width="200" height="312" frameX="-1985" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30003" x="1014" y="2" width="200" height="312" frameX="-1985" frameY="-59" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30004" x="685" y="395" width="186" height="318" frameX="-1992" frameY="-53" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30005" x="685" y="395" width="186" height="318" frameX="-1992" frameY="-53" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30006" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30007" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30008" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30009" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30010" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30011" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30012" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30013" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+	<SubTexture name="random30014" x="833" y="2" width="179" height="323" frameX="-1996" frameY="-48" frameWidth="2185" frameHeight="371"/>
+</TextureAtlas>

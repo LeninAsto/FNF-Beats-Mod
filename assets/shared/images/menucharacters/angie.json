@@ -1,0 +1,11 @@
+{
+	"idle_anim": "idle",
+	"confirm_anim": "",
+	"position": [
+		91,
+		70
+	],
+	"scale": 0.6,
+	"flipX": false,
+	"image": "Menu_angie"
+}

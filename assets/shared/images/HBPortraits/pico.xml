@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pico.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pico_0000" x="0" y="0" width="302" height="381"/>
+	<SubTexture name="Pico_0001" x="0" y="383" width="302" height="381"/>
+	<SubTexture name="Pico_0002" x="0" y="383" width="302" height="381"/>
+	<SubTexture name="Pico_0003" x="304" y="0" width="302" height="381"/>
+	<SubTexture name="Pico_0004" x="304" y="0" width="302" height="381"/>
+	<SubTexture name="Pico_0005" x="304" y="383" width="302" height="381"/>
+	<SubTexture name="Pico_0006" x="304" y="383" width="302" height="381"/>
+	<SubTexture name="Pico_0007" x="0" y="383" width="302" height="381"/>
+	<SubTexture name="picoN0000" x="0" y="766" width="100" height="45"/>
+	<SubTexture name="picoN0001" x="0" y="766" width="100" height="45"/>
+	<SubTexture name="picoN0002" x="608" y="0" width="96" height="37" frameX="-2" frameY="-4" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0003" x="608" y="0" width="96" height="37" frameX="-2" frameY="-4" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0004" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0005" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0006" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0007" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0008" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0009" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0010" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0011" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0012" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0013" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+	<SubTexture name="picoN0014" x="0" y="813" width="90" height="35" frameX="-5" frameY="-5" frameWidth="100" frameHeight="45"/>
+</TextureAtlas>

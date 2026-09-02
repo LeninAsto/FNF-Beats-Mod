@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="ElgatoyelVato.png" width="789" height="687">
+	<SubTexture name="Gato0000" x="2" y="2" width="139" height="168" frameX="-0" frameY="-148" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0001" x="2" y="2" width="139" height="168" frameX="-0" frameY="-148" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0002" x="284" y="2" width="136" height="169" frameX="-1" frameY="-147" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0003" x="284" y="2" width="136" height="169" frameX="-1" frameY="-147" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0004" x="560" y="2" width="135" height="170" frameX="-2" frameY="-146" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0005" x="560" y="2" width="135" height="170" frameX="-2" frameY="-146" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0006" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0007" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0008" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0009" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0010" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0011" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0012" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0013" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0014" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0015" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0016" x="139" y="172" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0017" x="143" y="2" width="139" height="168" frameX="-0" frameY="-148" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0018" x="143" y="2" width="139" height="168" frameX="-0" frameY="-148" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0019" x="422" y="2" width="136" height="169" frameX="-1" frameY="-147" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0020" x="422" y="2" width="136" height="169" frameX="-1" frameY="-147" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0021" x="2" y="172" width="135" height="170" frameX="-2" frameY="-146" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0022" x="2" y="172" width="135" height="170" frameX="-2" frameY="-146" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0023" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0024" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0025" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0026" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0027" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0028" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0029" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0030" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0031" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0032" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Gato0033" x="271" y="173" width="130" height="173" frameX="-4" frameY="-143" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0000" x="403" y="174" width="198" height="332" frameX="-149" frameY="-6" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0001" x="403" y="174" width="198" height="332" frameX="-149" frameY="-6" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0002" x="2" y="347" width="190" height="335" frameX="-153" frameY="-3" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0003" x="2" y="347" width="190" height="335" frameX="-153" frameY="-3" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0004" x="194" y="348" width="189" height="337" frameX="-153" frameY="-1" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0005" x="194" y="348" width="189" height="337" frameX="-153" frameY="-1" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0006" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0007" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0008" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0009" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0010" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0011" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0012" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0013" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0014" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0015" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0016" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0017" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0018" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0019" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0020" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0021" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0022" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0023" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0024" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0025" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0026" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0027" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0028" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0029" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0030" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0031" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0032" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+	<SubTexture name="Vato0033" x="603" y="174" width="184" height="338" frameX="-156" frameY="-0" frameWidth="347" frameHeight="338"/>
+</TextureAtlas>

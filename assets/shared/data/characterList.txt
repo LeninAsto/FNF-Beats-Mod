@@ -1,4 +1,4 @@
-﻿bf
+bf
 dad
 gf
 spooky
@@ -24,12 +24,3 @@ pico-speaker
 bf-holding-gf
 pico-player
 tankman-player
-bf-holding-gf-dead
-darnell
-darnell-blazin
-nene
-pico-blazin
-pico-dead
-pico-explosion-dead
-pico-playable
-tankman-playable

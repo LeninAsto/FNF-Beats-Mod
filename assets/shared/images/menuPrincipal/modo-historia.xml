@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="modo-historia.png" width="1031" height="1410">
+	<!-- Created with Pydroid3 -->
+	<!-- By KyleFaz87 :bleh: -->
+	<SubTexture name="basic0000" x="2" y="2" width="512" height="262" frameX="-22" frameY="-44" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="basic0001" x="2" y="2" width="512" height="262" frameX="-22" frameY="-44" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="basic0002" x="2" y="266" width="516" height="292" frameX="-22" frameY="-21" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="basic0003" x="2" y="266" width="516" height="292" frameX="-22" frameY="-21" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="basic0004" x="520" y="266" width="502" height="266" frameX="-22" frameY="-37" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="basic0005" x="520" y="266" width="502" height="266" frameX="-22" frameY="-37" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="idle0000" x="2" y="560" width="390" height="209" frameX="-95" frameY="-64" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="select0000" x="394" y="560" width="480" height="263" frameX="-58" frameY="-25" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="select0001" x="2" y="825" width="489" height="236" frameX="-44" frameY="-53" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="select0002" x="493" y="825" width="536" height="299" frameX="-4" frameY="-6" frameWidth="550" frameHeight="313"/>
+	<SubTexture name="select0003" x="2" y="1126" width="537" height="282" frameX="-11" frameY="-30" frameWidth="550" frameHeight="313"/>
+</TextureAtlas>

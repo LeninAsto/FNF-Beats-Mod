@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="randoms2.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="randoms0000" x="0" y="0" width="412" height="391" frameX="-577" frameY="-11" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="randoms0001" x="0" y="0" width="412" height="391" frameX="-577" frameY="-11" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="randoms0002" x="412" y="0" width="413" height="397" frameX="-578" frameY="-5" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="randoms0003" x="412" y="0" width="413" height="397" frameX="-578" frameY="-5" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="randoms0004" x="0" y="397" width="992" height="400" frameX="0" frameY="0" frameWidth="992" frameHeight="402"/>
+	<SubTexture name="randoms0005" x="0" y="397" width="992" height="400" frameX="0" frameY="0" frameWidth="992" frameHeight="402"/>
+</TextureAtlas>

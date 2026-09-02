@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="opciones.png" width="957" height="1594">
+	<!-- Created with Pydroid3 -->
+	<!-- By KyleFaz87 :bleh: -->
+	<SubTexture name="basic0000" x="2" y="2" width="600" height="260" frameX="-11" frameY="-43" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="basic0001" x="2" y="2" width="600" height="260" frameX="-11" frameY="-43" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="basic0002" x="2" y="264" width="613" height="288" frameX="-48" frameY="-42" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="basic0003" x="2" y="264" width="613" height="288" frameX="-48" frameY="-42" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="basic0004" x="2" y="554" width="593" height="305" frameX="-45" frameY="-12" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="basic0005" x="2" y="554" width="593" height="305" frameX="-45" frameY="-12" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="idle0000" x="597" y="554" width="358" height="189" frameX="-171" frameY="-74" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="select0000" x="2" y="861" width="449" height="207" frameX="-102" frameY="-74" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="select0001" x="453" y="861" width="455" height="213" frameX="-112" frameY="-70" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="select0002" x="2" y="1076" width="503" height="254" frameX="-99" frameY="-63" frameWidth="683" frameHeight="339"/>
+	<SubTexture name="select0003" x="2" y="1332" width="543" height="260" frameX="-62" frameY="-57" frameWidth="683" frameHeight="339"/>
+</TextureAtlas>

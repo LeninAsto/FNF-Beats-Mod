@@ -8,6 +8,7 @@ import openfl.events.IOErrorEvent;
 import openfl.events.MouseEvent;
 import openfl.events.TouchEvent;
 import openfl.geom.Point;
+import openfl.utils.Assets;
 import objects.Character;
 import objects.HealthIcon;
 import objects.Bar;

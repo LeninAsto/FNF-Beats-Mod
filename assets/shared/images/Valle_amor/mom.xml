@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mom.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mom0000" x="0" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0001" x="0" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0002" x="729" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0003" x="729" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0004" x="1458" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0005" x="1458" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0006" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0007" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0008" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0009" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0010" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0011" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0012" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0013" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0014" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0015" x="2916" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0016" x="2916" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0017" x="0" y="1082" width="729" height="1082"/>
+	<SubTexture name="mom0018" x="0" y="1082" width="729" height="1082"/>
+	<SubTexture name="mom0019" x="729" y="1082" width="729" height="1082"/>
+	<SubTexture name="mom0020" x="729" y="1082" width="729" height="1082"/>
+	<SubTexture name="mom0021" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0022" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0023" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0024" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0025" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0026" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0027" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0028" x="2187" y="0" width="729" height="1082"/>
+	<SubTexture name="mom0029" x="2187" y="0" width="729" height="1082"/>
+</TextureAtlas>

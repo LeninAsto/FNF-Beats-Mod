@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="humo.png" width="543" height="975">
+	<SubTexture name="humo0001" x="2" y="488" width="300" height="485" frameX="-0" frameY="-0" frameWidth="300" frameHeight="494"/>
+	<SubTexture name="humo0002" x="2" y="488" width="300" height="485" frameX="-0" frameY="-0" frameWidth="300" frameHeight="494"/>
+	<SubTexture name="humo0003" x="2" y="2" width="225" height="466" frameX="-18" frameY="-17" frameWidth="300" frameHeight="494"/>
+	<SubTexture name="humo0004" x="2" y="2" width="225" height="466" frameX="-18" frameY="-17" frameWidth="300" frameHeight="494"/>
+	<SubTexture name="humo0005" x="304" y="488" width="237" height="485" frameX="-23" frameY="-3" frameWidth="300" frameHeight="494"/>
+	<SubTexture name="humo0006" x="304" y="488" width="237" height="485" frameX="-23" frameY="-3" frameWidth="300" frameHeight="494"/>
+	<SubTexture name="humo0007" x="229" y="2" width="254" height="484" frameX="-12" frameY="-10" frameWidth="300" frameHeight="494"/>
+	<SubTexture name="humo0008" x="229" y="2" width="254" height="484" frameX="-12" frameY="-10" frameWidth="300" frameHeight="494"/>
+</TextureAtlas>

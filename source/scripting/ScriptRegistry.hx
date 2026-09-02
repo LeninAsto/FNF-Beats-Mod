@@ -2,6 +2,7 @@ package scripting;
 
 #if HSCRIPT_ALLOWED
 import backend.Mods;
+import backend.AssetLoader;
 import backend.Paths;
 import hxscript.Environment;
 import hxscript.Module;
@@ -9,6 +10,7 @@ import hxscript.syntax.Expr;
 import hxscript.types.IScriptedType;
 import hxscript.types.ScriptedClass;
 import hxscript.types.TypeCollection;
+import openfl.utils.AssetType;
 import scripting.hscript.HScript;
 
 using StringTools;
@@ -119,7 +121,7 @@ class ScriptRegistry {
 
 	public static function resolveClassFile(fullName:String, ?preferredMod:String):ResolvedScript {
 		for (candidate in classFileCandidates(fullName, preferredMod)) {
-			var exists:Bool = Paths.safeModPathExists(candidate.file);
+			var exists:Bool = AssetLoader.exists(candidate.file, AssetType.TEXT);
 			log('  check ${candidate.mod.length > 0 ? candidate.mod : "<shared>"} -> ${candidate.file} ${exists ? "OK" : "missing"}');
 			if (exists)
 				return candidate;
@@ -145,15 +147,17 @@ class ScriptRegistry {
 		for (mod in Mods.parseList().enabled)
 			addMod(mod);
 		#end
-		addMod(BASE_GAME_MOD);
-
+		#if MODS_ALLOWED
 		for (mod in mods)
 			for (root in CLASS_ROOTS)
 				candidates.push({file: Paths.mods(mod + '/' + root + relative), mod: mod});
+		#end
 
 		for (root in CLASS_ROOTS) {
+			candidates.push({file: Paths.getSharedPath(root + relative), mod: SHARED_WORLD});
+			#if MODS_ALLOWED
 			candidates.push({file: Paths.mods(root + relative), mod: SHARED_WORLD});
-			candidates.push({file: 'base_game/' + root + relative, mod: BASE_GAME_MOD});
+			#end
 		}
 
 		return candidates;
@@ -280,7 +284,7 @@ class ScriptWorld {
 		}
 		#end
 
-		var code:String = Paths.safeFileContent(file);
+		var code:String = AssetLoader.loadText(file);
 		if (code == null || code.length == 0) {
 			HScript.error('Empty scripted class file "$file"', errPos(path));
 			return false;

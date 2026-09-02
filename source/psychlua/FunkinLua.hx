@@ -24,6 +24,7 @@ import psychlua.HScript;
 #end
 import psychlua.ModchartSprite;
 import mobile.psychlua.Functions;
+import openfl.utils.Assets;
 #if mobile
 import mobile.backend.MobileScaleMode;
 #end

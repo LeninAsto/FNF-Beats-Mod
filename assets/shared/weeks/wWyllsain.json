@@ -1,0 +1,41 @@
+{
+	"storyName": "BeatsFD",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "wyll",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"wyll",
+		"graybf",
+		"ryker"
+	],
+	"songs": [
+		[
+			"MDFR",
+			"wyll",
+			[
+				80,
+				80,
+				80
+			]
+		],
+		[
+			"jeffgd",
+			"wyll",
+			[
+				80,
+				80,
+				80
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "BeatsFD",
+	"hiddenUntilUnlocked": false
+}

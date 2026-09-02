@@ -1,0 +1,7 @@
+Spawn the countdown sprites in order
+value 1: Custom Index
+1 => ready
+2 => set
+3=> go
+
+Leave it blank if you want it in order 

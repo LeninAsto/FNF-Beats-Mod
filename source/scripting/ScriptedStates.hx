@@ -4,10 +4,12 @@ package scripting;
 import backend.MusicBeatState;
 import backend.MusicBeatSubstate;
 import backend.Mods;
+import backend.AssetLoader;
 import backend.Paths;
 import flixel.FlxG;
 import flixel.FlxState;
 import flixel.FlxSubState;
+import openfl.utils.AssetType;
 import scripting.hscript.HScript;
 
 using StringTools;
@@ -157,23 +159,27 @@ class ScriptedStates {
 	}
 
 	static function resolveInMod(full:String, ?mod:String):ScriptedStateFile {
+		#if MODS_ALLOWED
 		if (mod != null && mod.length > 0) {
 			for (relative in ScriptRegistry.classPaths(full)) {
 				var file:String = Paths.mods(mod + '/' + relative);
-				if (Paths.safeModPathExists(file))
+				if (AssetLoader.exists(file, AssetType.TEXT))
 					return {file: file, mod: mod};
 			}
 			return null;
 		}
+		#end
 
 		for (relative in ScriptRegistry.classPaths(full)) {
-			var shared:String = Paths.mods(relative);
-			if (Paths.safeModPathExists(shared))
-				return {file: shared, mod: ScriptRegistry.SHARED_WORLD};
+			var sharedAssets:String = Paths.getSharedPath(relative);
+			if (AssetLoader.exists(sharedAssets, AssetType.TEXT))
+				return {file: sharedAssets, mod: ScriptRegistry.SHARED_WORLD};
 
-			var base:String = 'base_game/' + relative;
-			if (Paths.safeModPathExists(base))
-				return {file: base, mod: ScriptRegistry.BASE_GAME_MOD};
+			#if MODS_ALLOWED
+			var shared:String = Paths.mods(relative);
+			if (AssetLoader.exists(shared, AssetType.TEXT))
+				return {file: shared, mod: ScriptRegistry.SHARED_WORLD};
+			#end
 		}
 		return null;
 	}

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pene.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hey0000" x="0" y="0" width="376" height="364"/>
+	<SubTexture name="hey0001" x="0" y="0" width="376" height="364"/>
+	<SubTexture name="hey0002" x="376" y="0" width="376" height="364"/>
+	<SubTexture name="hey0003" x="376" y="0" width="376" height="364"/>
+	<SubTexture name="hey0004" x="752" y="0" width="376" height="364"/>
+	<SubTexture name="hey0005" x="752" y="0" width="376" height="364"/>
+	<SubTexture name="idle0000" x="1128" y="0" width="425" height="258"/>
+	<SubTexture name="idle0001" x="1128" y="0" width="425" height="258"/>
+	<SubTexture name="idle0002" x="1553" y="0" width="425" height="258"/>
+	<SubTexture name="idle0003" x="1553" y="0" width="425" height="258"/>
+	<SubTexture name="idle0004" x="1978" y="0" width="425" height="258"/>
+	<SubTexture name="idle0005" x="1978" y="0" width="425" height="258"/>
+	<SubTexture name="idle0006" x="2403" y="0" width="425" height="258"/>
+	<SubTexture name="idle0007" x="2403" y="0" width="425" height="258"/>
+	<SubTexture name="idle0008" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0009" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0010" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0011" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0012" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0013" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0014" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0015" x="3253" y="0" width="425" height="258"/>
+	<SubTexture name="idle0016" x="3253" y="0" width="425" height="258"/>
+	<SubTexture name="idle0017" x="0" y="364" width="425" height="258"/>
+	<SubTexture name="idle0018" x="0" y="364" width="425" height="258"/>
+	<SubTexture name="idle0019" x="425" y="364" width="425" height="258"/>
+	<SubTexture name="idle0020" x="425" y="364" width="425" height="258"/>
+	<SubTexture name="idle0021" x="850" y="364" width="425" height="258"/>
+	<SubTexture name="idle0022" x="850" y="364" width="425" height="258"/>
+	<SubTexture name="idle0023" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0024" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0025" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0026" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0027" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0028" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="idle0029" x="2828" y="0" width="425" height="258"/>
+	<SubTexture name="knife high held0000" x="1275" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0001" x="1275" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0002" x="1743" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0003" x="1743" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0004" x="2211" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0005" x="2211" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0006" x="2211" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0007" x="2211" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0008" x="1743" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0009" x="1743" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0010" x="2679" y="364" width="468" height="361"/>
+	<SubTexture name="knife high held0011" x="2679" y="364" width="468" height="361"/>
+	<SubTexture name="knife lower0000" x="3147" y="364" width="475" height="363"/>
+	<SubTexture name="knife lower0001" x="3147" y="364" width="475" height="363"/>
+	<SubTexture name="knife lower0002" x="0" y="727" width="475" height="363"/>
+	<SubTexture name="knife lower0003" x="0" y="727" width="475" height="363"/>
+	<SubTexture name="knife lower0004" x="475" y="727" width="475" height="363"/>
+	<SubTexture name="knife lower0005" x="475" y="727" width="475" height="363"/>
+	<SubTexture name="knife lower0006" x="950" y="727" width="475" height="363"/>
+	<SubTexture name="knife lower0007" x="950" y="727" width="475" height="363"/>
+	<SubTexture name="knife raise0000" x="1425" y="727" width="475" height="363"/>
+	<SubTexture name="knife raise0001" x="1425" y="727" width="475" height="363"/>
+	<SubTexture name="knife raise0002" x="1900" y="727" width="475" height="363"/>
+	<SubTexture name="knife raise0003" x="1900" y="727" width="475" height="363"/>
+	<SubTexture name="knife raise0004" x="0" y="727" width="475" height="363"/>
+	<SubTexture name="knife raise0005" x="0" y="727" width="475" height="363"/>
+	<SubTexture name="knife raise0006" x="3147" y="364" width="475" height="363"/>
+	<SubTexture name="knife raise0007" x="3147" y="364" width="475" height="363"/>
+	<SubTexture name="knife toss0000" x="2375" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0001" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0002" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0003" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0004" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0005" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0006" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0007" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0008" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0009" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0010" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0011" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0012" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0013" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0014" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0015" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0016" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0017" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0018" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0019" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0020" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0021" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0022" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0023" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0024" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0025" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0026" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0027" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0028" x="3058" y="727" width="683" height="299"/>
+	<SubTexture name="knife toss0029" x="2375" y="727" width="683" height="299"/>
+	<SubTexture name="laughind0000" x="3741" y="727" width="337" height="362"/>
+	<SubTexture name="mano0000" x="0" y="1090" width="203" height="273"/>
+</TextureAtlas>

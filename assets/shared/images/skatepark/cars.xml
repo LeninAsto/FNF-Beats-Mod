@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cars.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="carro10000" x="0" y="0" width="481" height="203"/>
+	<SubTexture name="carro10001" x="0" y="0" width="481" height="203"/>
+	<SubTexture name="carro10002" x="481" y="0" width="481" height="203"/>
+	<SubTexture name="carro10003" x="481" y="0" width="481" height="203"/>
+	<SubTexture name="carro20000" x="962" y="0" width="399" height="305"/>
+	<SubTexture name="carro20001" x="962" y="0" width="399" height="305"/>
+	<SubTexture name="carro20002" x="1361" y="0" width="399" height="305"/>
+	<SubTexture name="carro20003" x="1361" y="0" width="399" height="305"/>
+	<SubTexture name="carro30000" x="0" y="305" width="714" height="490"/>
+	<SubTexture name="carro30001" x="0" y="305" width="714" height="490"/>
+	<SubTexture name="carro30002" x="714" y="305" width="714" height="490"/>
+	<SubTexture name="carro30003" x="714" y="305" width="714" height="490"/>
+	<SubTexture name="carro40000" x="1428" y="305" width="346" height="235"/>
+	<SubTexture name="carro40001" x="1428" y="305" width="346" height="235"/>
+	<SubTexture name="carro40002" x="0" y="795" width="346" height="235"/>
+	<SubTexture name="carro40003" x="0" y="795" width="346" height="235"/>
+	<SubTexture name="moto10000" x="346" y="795" width="293" height="226"/>
+	<SubTexture name="moto10001" x="346" y="795" width="293" height="226"/>
+	<SubTexture name="moto10002" x="639" y="795" width="293" height="226"/>
+	<SubTexture name="moto10003" x="639" y="795" width="293" height="226"/>
+	<SubTexture name="moto20000" x="932" y="795" width="370" height="270"/>
+	<SubTexture name="moto20001" x="932" y="795" width="370" height="270"/>
+	<SubTexture name="moto20002" x="1302" y="795" width="370" height="270"/>
+	<SubTexture name="moto20003" x="1302" y="795" width="370" height="270"/>
+</TextureAtlas>

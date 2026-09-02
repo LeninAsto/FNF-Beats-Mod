@@ -1,0 +1,184 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-6,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				55,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-28,
+				-36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-8,
+				24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-34,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				66,
+				53
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "pum",
+			"indices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "completo"
+		},
+		{
+			"offsets": [
+				46,
+				44
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "yeah",
+			"indices": [
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36
+			],
+			"name": "completo"
+		},
+		{
+			"offsets": [
+				52,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "1",
+			"indices": [
+				19,
+				20,
+				21
+			],
+			"name": "completo"
+		},
+		{
+			"offsets": [
+				46,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "2",
+			"indices": [
+				1,
+				2,
+				3
+			],
+			"name": "completo"
+		},
+		{
+			"offsets": [
+				46,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dance",
+			"indices": [],
+			"name": "completo"
+		},
+		{
+			"offsets": [
+				5,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "wow",
+			"indices": [],
+			"name": "wow"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mairl",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mairl",
+	"flip_x": false,
+	"healthbar_colors": [
+		74,
+		102,
+		144
+	],
+	"camera_position": [
+		40,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

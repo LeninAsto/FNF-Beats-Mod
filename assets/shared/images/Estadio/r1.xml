@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="r1.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="weyes0000" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0001" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0002" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0003" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0004" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0005" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0006" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0007" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0008" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0009" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0010" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0011" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0012" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0013" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0014" x="0" y="0" width="1160" height="512"/>
+	<SubTexture name="weyes0015" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0016" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0017" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0018" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0019" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0020" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0021" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0022" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0023" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0024" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0025" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0026" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0027" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0028" x="0" y="512" width="1160" height="512"/>
+	<SubTexture name="weyes0029" x="0" y="512" width="1160" height="512"/>
+</TextureAtlas>

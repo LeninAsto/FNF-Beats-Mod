@@ -1,0 +1,8 @@
+Toggle Cinema with Zoom Out Effect and HUD Squish.
+Value 1: Zoom Out (Default: 0.086)
+Ignored when deactivating.
+Tip: use negative numbers to zoom in
+
+Value2: Tween Time (Default: 5)
+Tip: the higher the number, the slower it will be
+Leave blank to use default.

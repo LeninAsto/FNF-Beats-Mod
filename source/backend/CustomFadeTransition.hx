@@ -12,6 +12,7 @@ import states.MainMenuState;
 class CustomFadeTransition extends MusicBeatSubstate
 {
 	public static var finishCallback:Void->Void;
+	static inline function useVanillaTransition():Bool return true;
 
 	var isTransIn:Bool = false;
 
@@ -111,7 +112,7 @@ class CustomFadeTransition extends MusicBeatSubstate
 			FlxG.cameras.add(cam, false);
 			cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
 
-			if (ClientPrefs.data.vanillaTransition)
+			if (useVanillaTransition())
 			{
 				createVanillaTransition();
 			}
@@ -208,7 +209,7 @@ class CustomFadeTransition extends MusicBeatSubstate
 	{
 		super.update(elapsed);
 
-		if (ClientPrefs.data.vanillaTransition && transGradient != null)
+		if (useVanillaTransition() && transGradient != null)
 		{
 			final height:Float = FlxG.height * Math.max(camera.zoom, 0.001);
 			final targetPos:Float = transGradient.height + 50 * Math.max(camera.zoom, 0.001);
@@ -415,7 +416,7 @@ class CustomFadeTransition extends MusicBeatSubstate
 
 		isClosing = true;
 
-		if (!ClientPrefs.data.vanillaTransition)
+		if (!useVanillaTransition())
 		{
 			if (currentTransition == this)
 			{
@@ -492,7 +493,7 @@ class CustomFadeTransition extends MusicBeatSubstate
 		{
 			cancelAllTweens();
 
-			if (ClientPrefs.data.vanillaTransition && finishCallback != null)
+			if (useVanillaTransition() && finishCallback != null)
 			{
 				var callback = finishCallback;
 				finishCallback = null;

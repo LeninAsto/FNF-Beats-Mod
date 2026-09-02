@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-6,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				73,
+				16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-17,
+				-31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				62,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-48,
+				13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				13
+			],
+			"anim": "jiji",
+			"fps": 25,
+			"name": "jiji",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-46,
+				12
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "hey",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-3,
+				11
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "risa",
+			"indices": [],
+			"name": "risa"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				10
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "alt",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-4,
+				15
+			],
+			"indices": [],
+			"fps": 25,
+			"anim": "dance",
+			"loop": false,
+			"name": "jiji"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/zaida",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "zaida",
+	"flip_x": false,
+	"healthbar_colors": [
+		207,
+		248,
+		241
+	],
+	"camera_position": [
+		130,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

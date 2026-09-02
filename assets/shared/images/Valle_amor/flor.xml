@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="flor.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="flor10000" x="0" y="0" width="184" height="178"/>
+	<SubTexture name="flor20000" x="184" y="0" width="161" height="164"/>
+	<SubTexture name="flor30000" x="345" y="0" width="151" height="170"/>
+	<SubTexture name="flor40000" x="496" y="0" width="120" height="119"/>
+	<SubTexture name="flor50000" x="616" y="0" width="79" height="86"/>
+	<SubTexture name="flor60000" x="695" y="0" width="207" height="163"/>
+	<SubTexture name="flor70000" x="0" y="178" width="164" height="194"/>
+	<SubTexture name="flor80000" x="164" y="178" width="158" height="164"/>
+</TextureAtlas>

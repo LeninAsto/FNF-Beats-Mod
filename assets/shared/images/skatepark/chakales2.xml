@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chakales2.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="chakales20000" x="0" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20001" x="0" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20002" x="0" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20003" x="635" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20004" x="635" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20005" x="1270" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20006" x="1905" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20007" x="1905" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20008" x="1905" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20009" x="1905" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20010" x="2540" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20011" x="2540" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20012" x="2540" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20013" x="3175" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20014" x="3175" y="0" width="635" height="855"/>
+	<SubTexture name="chakales20015" x="0" y="855" width="635" height="855"/>
+	<SubTexture name="chakales20016" x="635" y="855" width="635" height="855"/>
+	<SubTexture name="chakales20017" x="635" y="855" width="635" height="855"/>
+	<SubTexture name="chakales20018" x="635" y="855" width="635" height="855"/>
+	<SubTexture name="chakales20019" x="635" y="855" width="635" height="855"/>
+</TextureAtlas>

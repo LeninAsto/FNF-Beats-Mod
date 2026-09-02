@@ -1,0 +1,1 @@
+custom = {week1/zaidaSticker1.png, week1/zaidaSticker2.png, week1/zaidaSticker3.png, week1/rebecaSticker1.png, week1/rebecaSticker2.png, week1/rebecaSticker3.png, week1/MSticker.png, week1/paletaSticker1.png, week1/paletaSticker2.png, week1/paletaSticker3.png, week1/starSticker.png, }

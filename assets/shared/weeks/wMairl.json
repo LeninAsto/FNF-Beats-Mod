@@ -1,0 +1,50 @@
+{
+	"storyName": "mercaditonial",
+	"difficulties": "Easy, Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "mairl",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"mairl",
+		"bluebf",
+		"angie"
+	],
+	"songs": [
+		[
+			"accompanied",
+			"mairl",
+			[
+				6,
+				213,
+				195
+			]
+		],
+		[
+			"leveling",
+			"mairl",
+			[
+				6,
+				213,
+				195
+			]
+		],
+		[
+			"retroflower",
+			"mairl",
+			[
+				6,
+				213,
+				195
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "mercaditonial",
+	"hiddenUntilUnlocked": false
+}

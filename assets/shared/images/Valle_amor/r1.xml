@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="r1.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="r10000" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10001" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10002" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10003" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10004" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10005" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10006" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10007" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10008" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10009" x="0" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10010" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10011" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10012" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10013" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10014" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10015" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10016" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10017" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10018" x="1003" y="0" width="1003" height="1554"/>
+	<SubTexture name="r10019" x="1003" y="0" width="1003" height="1554"/>
+</TextureAtlas>

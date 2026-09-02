@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="randoms.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="randoms0000" x="0" y="0" width="1171" height="374"/>
+	<SubTexture name="randoms0001" x="0" y="0" width="1171" height="374"/>
+	<SubTexture name="randoms0002" x="0" y="374" width="1171" height="374"/>
+	<SubTexture name="randoms0003" x="0" y="374" width="1171" height="374"/>
+	<SubTexture name="randoms0004" x="0" y="748" width="1171" height="374"/>
+	<SubTexture name="randoms0005" x="0" y="748" width="1171" height="374"/>
+	<SubTexture name="randoms0006" x="0" y="748" width="1171" height="374"/>
+	<SubTexture name="randoms0007" x="0" y="748" width="1171" height="374"/>
+	<SubTexture name="randoms0008" x="0" y="1122" width="1171" height="374"/>
+	<SubTexture name="randoms0009" x="0" y="1122" width="1171" height="374"/>
+	<SubTexture name="randoms0010" x="0" y="1122" width="1171" height="374"/>
+	<SubTexture name="randoms0011" x="0" y="1122" width="1171" height="374"/>
+	<SubTexture name="randoms0012" x="0" y="1122" width="1171" height="374"/>
+	<SubTexture name="randoms0013" x="0" y="1122" width="1171" height="374"/>
+	<SubTexture name="randoms0014" x="0" y="1122" width="1171" height="374"/>
+</TextureAtlas>

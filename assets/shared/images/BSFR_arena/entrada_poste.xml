@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="entrada_poste.png" width="1176" height="695">
+	<SubTexture name="entrada0000" x="711" y="2" width="463" height="608" frameX="-99" frameY="-793" frameWidth="4000" frameHeight="2700"/>
+	<SubTexture name="postes0000" x="2" y="2" width="707" height="691" frameX="-2898" frameY="-725" frameWidth="4000" frameHeight="2700"/>
+</TextureAtlas>
