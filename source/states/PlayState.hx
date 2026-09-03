@@ -6977,7 +6977,7 @@ class PlayState extends MusicBeatState
 			for (file in files)
 			{
 				var lower:String = file.toLowerCase();
-				if (file == 'classes' || lower == 'e.lua' || (lower.indexOf('.lua') < 0 && lower.indexOf('.hx') < 0))
+				if (file == 'classes' || (lower.indexOf('.lua') < 0 && lower.indexOf('.hx') < 0))
 					continue;
 
 				#if LUA_ALLOWED
