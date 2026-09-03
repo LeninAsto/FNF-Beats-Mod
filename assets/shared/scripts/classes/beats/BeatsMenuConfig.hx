@@ -2,8 +2,8 @@ package beats;
 
 class BeatsMenuConfig {
 	public static var version:String = '1.0';
-	public static var bg:String = 'BG';
-	public static var bgFlash:String = 'BGdesat';
+	public static var bg:String = 'menuBG';
+	public static var bgFlash:String = 'menuDesat';
 	public static var border:String = 'borde';
 	public static var randomArtFolder:String = 'menu_waos';
 	public static var menuAtlasFolder:String = 'menuPrincipal';

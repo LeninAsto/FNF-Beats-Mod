@@ -41,6 +41,9 @@ class MainMenuState extends MusicBeatState {
 	var camFollow:FlxObject;
 
 	override function create():Void {
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+
 		super.create();
 
 		persistentUpdate = persistentDraw = true;

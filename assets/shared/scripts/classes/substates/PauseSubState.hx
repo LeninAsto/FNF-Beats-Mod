@@ -39,6 +39,8 @@ class PauseSubState extends MusicBeatSubstate {
 	var itemSprites:Array<FlxSprite> = [];
 	var itemY:Array<Float> = [50, 340, 560, 670];
 	var itemColor:Array<Int> = [0xffffe367, 0xffff6361, 0xff61ff80, 0xff000000];
+	var itemBaseScale:Float = 0.68;
+	var itemSelectedScale:Float = 0.82;
 	var curSelected:Int = 0;
 	var selected:Bool = false;
 
@@ -75,7 +77,7 @@ class PauseSubState extends MusicBeatSubstate {
 
 		for (i in 0...3) {
 			var sprite = animatedPauseSprite(items[i], 10, itemY[i]);
-			sprite.scale.set(0.25, 0.25);
+			sprite.scale.set(itemBaseScale, itemBaseScale);
 			sprite.updateHitbox();
 			sprite.x = -sprite.frameWidth;
 			itemSprites.push(sprite);
@@ -197,10 +199,20 @@ class PauseSubState extends MusicBeatSubstate {
 		}
 
 		for (i in 0...itemSprites.length) {
-			var scale = i == curSelected ? 0.3 : 0.25;
-			FlxTween.cancelTweensOf(itemSprites[i].scale);
-			FlxTween.tween(itemSprites[i].scale, {x: scale, y: scale}, 0.25, {ease: FlxEase.expoOut});
+			var scale = i == curSelected ? itemSelectedScale : itemBaseScale;
+			tweenSpriteScale(itemSprites[i], scale);
 		}
+	}
+
+	function tweenSpriteScale(sprite:FlxSprite, targetScale:Float):Void {
+		if (sprite == null)
+			return;
+
+		FlxTween.cancelTweensOf(sprite.scale);
+		FlxTween.num(sprite.scale.x, targetScale, 0.25, {ease: FlxEase.expoOut}, function(value:Float) {
+			sprite.scale.set(value, value);
+			sprite.updateHitbox();
+		});
 	}
 
 	function choose(item:String):Void {

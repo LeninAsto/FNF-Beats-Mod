@@ -1,6 +1,4 @@
 local dir = 'Plazaid/'
-local plazaidCarsDebug = false
-
 function fnfbeatsStageRate()
 	local rate = getProperty('playbackRate')
 	if rate == nil or rate <= 0 then
@@ -10,7 +8,7 @@ function fnfbeatsStageRate()
 end
 
 function onCreate()
-luaDebugMode = true
+luaDebugMode = false
 --background shit
 	makeLuaSprite('Cielo', dir..'Cielo', -1503, -1059)
 	addLuaSprite('Cielo', false)
@@ -137,7 +135,6 @@ local coches = {
 
 function arrancarCoche(coche)
 	local c = coches[coche]
-	if plazaidCarsDebug then debugPrint('THE ' .. coche:upper() .. ' HAS BEEN STARTED!!') end
 	setProperty(coche .. '.flipX', not getProperty(coche .. '.flipX'))
 	c.offScreen = false
 	local speed = getRandomInt(c.vel[1], c.vel[2])
@@ -149,10 +146,8 @@ function arrancarCoche(coche)
 
 	setProperty(coche .. '.x', startX)
 	setProperty(coche .. '.y', newY)
-	--debugPrint(velX, ' -> ', velX * getProperty('playbackRate'))
 	setProperty(coche .. '.velocity.x', velX * fnfbeatsStageRate())
 	setObjectOrder(coche, newOrder)
-	if plazaidCarsDebug then debugPrint(coche..' order is now '..newOrder) end
 
 	local file = 'slowcar/CarPassing'..getRandomInt(1, 20)
 	if velX > 900 then file = 'fastcar/CarPassBy'..getRandomInt(1, 13) end
@@ -329,7 +324,6 @@ end
 function peopleDance(t)
 	if lowQuality then return end 
 	local danceDir = (t % 2 == 0 and 'Left' or 'Right')
-	--debugPrint('dance'..danceDir)
 	playAnim('GenteWeona', 'dance'..danceDir)
 	for i = 1,4 do playAnim('R'..i, 'idle', true) end
 	if t % 2 ~= 0 then playAnim('bloony', 'idle', true) end

@@ -47,7 +47,6 @@ class ScriptRegistry {
 				return null;
 			}
 
-			trace('[ScriptRegistry] stage "$stage" -> $fullName');
 			return cast inst;
 		}
 
@@ -206,10 +205,7 @@ class ScriptRegistry {
 	static inline function errPos(name:String):scripting.hscript.HScript.HScriptInfos
 		return cast {fileName: name, showLine: false};
 
-	public static function log(message:String):Void {
-		if (verbose)
-			trace('[ScriptRegistry] ' + message);
-	}
+	public static function log(message:String):Void {}
 }
 
 typedef ResolvedScript = {

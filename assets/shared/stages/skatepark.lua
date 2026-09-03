@@ -115,7 +115,6 @@ function restartVehicle(v, f)
 		swap.hue = FlxG.random.float(-100,100) / 360;
 		game.getLuaObject("]]..v..[[").shader = swap.shader;
 	]])
-	--debugPrint(curStep,'_',v)
 end
 
 function onUpdate()

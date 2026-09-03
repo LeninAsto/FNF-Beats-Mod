@@ -37,6 +37,9 @@ class StateLlenoDeCosas extends MusicBeatState {
 	var miraWe:FlxObject;
 
 	override function create():Void {
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
+
 		super.create();
 
 		miraWe = new FlxObject(0, 0, 1, 1);

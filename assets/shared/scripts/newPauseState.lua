@@ -3,6 +3,8 @@ local useClassedPauseSubState = true
 local playstate = 'states.PlayState'
 local diffs = {'backend.Difficulty', 'list'} -- broooo its just list not defaultList
 local coolPath = ''
+local pauseOptionBaseScale = 0.68
+local pauseOptionSelectedScale = 0.82
 
 function fnfbeatsPauseRate()
 	local rate = getProperty('playbackRate')
@@ -13,7 +15,7 @@ function fnfbeatsPauseRate()
 end
 
 function onCreate()
-	luaDebugMode = true
+	luaDebugMode = false
 	if string.find(version, '0.6') then --some version shit :bleh:
 		playstate = 'PlayState'
 		diffs = {'CoolUtil', 'difficulties'}
@@ -115,7 +117,7 @@ function createPauseOffscreen()
 	for i, name in ipairs({'PauseBase', 'reanudar', 'reiniciar', 'salir', 'flecha'}) do
 		quickSprite(true, name, 'Pause Stuff', 0, 0)
 		if i > 1 and i < 5 then
-			scaleObject(name, 0.25, 0.25, false)
+			scaleObject(name, pauseOptionBaseScale, pauseOptionBaseScale, false)
 		end
 		addAnimationByPrefix(name, name, name, 24, false)
 		setProperty(name..'.x', -getProperty(name..'._frame.frame.width'))
@@ -218,7 +220,7 @@ function onCustomSubstateUpdate(n)
 		newColor = stuffer.col[curSelected]
 		doTweenColor('flechaCol', 'flecha', newColor, 1, 'expoOut')
 		for thing = 1,#items do
-			local scal = items[thing] == curOption and 1 or 0.8
+			local scal = items[thing] == curOption and pauseOptionSelectedScale or pauseOptionBaseScale
 			if luaSpriteExists(items[thing]) then -- the chart text doesn get scaled ):
 				doTweenX('optionScaleX'..thing, items[thing]..'.scale', scal, 1, 'expoOut')
 				doTweenY('optionScaleY'..thing, items[thing]..'.scale', scal, 1, 'expoOut')
@@ -335,19 +337,14 @@ function pauseMusic(freshlyOpened)
 	local path = '../music/'..music
 	local coolerPaths = {coolPath..'assets/', coolPath..'assets/shared', coolPath..'mods/', coolPath..'mods/'..currentModDirectory..'/'}
 	if checkFileExists(coolerPaths[4]..'music/'..music..'.ogg', true) then
-		--debugPrint('found in '..coolerPaths[4]..'/music')
 		path = '../music/'..music --mods/modName/music
 	elseif checkFileExists(coolerPaths[3]..'music/'..music..'.ogg', true) then
-		--debugPrint('found in music')
 		path = '../../music/'..music --mods/music
 	elseif checkFileExists(coolerPaths[1]..'music/'..music..'.ogg', true) then
-		--debugPrint('found in assets/music')
 		path = '../../../assets/music/'..music
 	elseif checkFileExists(coolerPaths[2]..'music/'..music..'.ogg', true) then
-		--debugPrint('found in assets/shared/music')
 		path = '../../../assets/shared/music/'..music
 	else
-		--debugPrint('playing default music')
 		path = '../../../assets/shared/music/breakfast'
 	end
 	
@@ -422,7 +419,6 @@ function getSoundLength(tag)
 	if get1 == 'return game.variables.get("sound_'..tag..'").length;' then
 		local get2 = runHaxeCode('game.modchartSounds.get("'..tag..'").length;')
 		if get2 == 'game.modchartSounds.get("'..tag..'").length;' then
-			debugPrint('nah dude')
 			return 1500
 		else return get2 end
 	else return get1 end

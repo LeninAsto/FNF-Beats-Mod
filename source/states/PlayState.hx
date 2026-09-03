@@ -786,36 +786,7 @@ class PlayState extends MusicBeatState
 		}
 
 		#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
-		// "SCRIPTS FOLDER" SCRIPTS
-		for (folder in Mods.directoriesWithFile(Paths.getSharedPath(), 'scripts/'))
-			#if linux
-			for (file in CoolUtil.sortAlphabetically(Paths.readDirectory(folder)))
-			#else
-			for (file in Paths.readDirectory(folder))
-			#end
-		{
-			#if LUA_ALLOWED
-			if (file.toLowerCase().endsWith('.lua'))
-			{
-				if (file.toLowerCase() == 'fnfbeats-vs-intro.lua')
-					trace('[FNFBEATS VS INTRO] loading global Lua from ${folder + file}');
-				new FunkinLua(folder + file);
-			}
-			#end
-
-			#if HSCRIPT_ALLOWED
-			if (file.toLowerCase().endsWith('.hx'))
-				initHScript(folder + file);
-			#end
-		}
-		#end
-
-		#if LUA_ALLOWED
-		var fnfBeatsVsIntroLoaded:Bool = startLuasNamed('scripts/fnfbeats-vs-intro.lua');
-		trace('[FNFBEATS VS INTRO] explicit load result=' + fnfBeatsVsIntroLoaded);
-
-		var fnfBeatsHudLoaded:Bool = startLuasNamed('scripts/HBPortraits.lua');
-		trace('[FNFBEATS HUD] explicit load result=' + fnfBeatsHudLoaded);
+		loadGlobalPlayScripts();
 		#end
 
 		var camPos:FlxPoint = FlxPoint.get(girlfriendCameraOffset[0], girlfriendCameraOffset[1]);
@@ -4588,7 +4559,6 @@ class PlayState extends MusicBeatState
 
 			if (!chartingMode && !isStoryMode)
 			{
-				trace('WENT BACK TO FREEPLAY??');
 				exitToFreeplayWithStickers();
 				return true;
 			}
@@ -4644,9 +4614,6 @@ class PlayState extends MusicBeatState
 				else
 				{
 					var difficulty:String = Difficulty.getFilePath();
-
-					trace('LOADING NEXT SONG');
-					trace(Paths.formatToSongPath(PlayState.storyPlaylist[0]) + difficulty);
 
 					FlxTransitionableState.skipNextTransIn = true;
 					FlxTransitionableState.skipNextTransOut = true;
@@ -6952,7 +6919,26 @@ class PlayState extends MusicBeatState
 		callOnScripts('onSectionHit');
 	}
 
+	#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
+	function normalizeScriptPath(path:String):String
+		return path == null ? '' : path.replace('\\', '/');
+	#end
+
 	#if LUA_ALLOWED
+	function startLuaFile(luaToLoad:String):Bool
+	{
+		luaToLoad = normalizeScriptPath(luaToLoad);
+		if (!AssetLoader.exists(luaToLoad, TEXT))
+			return false;
+
+		for (script in luaArray)
+			if (normalizeScriptPath(script.scriptName) == luaToLoad)
+				return false;
+
+		new FunkinLua(luaToLoad);
+		return true;
+	}
+
 	public function startLuasNamed(luaFile:String)
 	{
 		#if MODS_ALLOWED
@@ -6960,29 +6946,80 @@ class PlayState extends MusicBeatState
 		if (!AssetLoader.exists(luaToLoad, TEXT))
 			luaToLoad = Paths.getSharedPath(luaFile);
 
-		if (AssetLoader.exists(luaToLoad, TEXT))
+		return startLuaFile(luaToLoad);
 		#elseif sys
 		var luaToLoad:String = Paths.getSharedPath(luaFile);
-		if (AssetLoader.exists(luaToLoad, TEXT))
-		#end
-		{
-			if (luaFile.indexOf('stages/') == 0)
-				trace('[PlayState] loading stage Lua "$luaFile" from $luaToLoad');
-
-			for (script in luaArray)
-				if (script.scriptName == luaToLoad)
-					return false;
-
-			new FunkinLua(luaToLoad);
-			return true;
-		}
-		if (luaFile.indexOf('fnfbeats') != -1 || luaFile.indexOf('HBPortraits') != -1 || luaFile.indexOf('stages/') == 0)
-			trace('[PlayState] Lua "$luaFile" not loaded; resolved path "$luaToLoad" does not exist');
+		return startLuaFile(luaToLoad);
+		#else
 		return false;
+		#end
+	}
+	#end
+
+	#if (LUA_ALLOWED || HSCRIPT_ALLOWED)
+	function loadGlobalPlayScripts():Void
+	{
+		var folders:Array<String> = [];
+		#if MODS_ALLOWED
+		folders = Mods.directoriesWithFile(Paths.getSharedPath(), 'scripts/');
+		#elseif sys
+		folders = [Paths.getSharedPath('scripts/')];
+		#end
+
+		for (folder in folders)
+		{
+			folder = normalizeScriptFolder(folder);
+			var files:Array<String> = Paths.readDirectory(folder);
+			#if linux
+			files = CoolUtil.sortAlphabetically(files);
+			#end
+
+			for (file in files)
+			{
+				var lower:String = file.toLowerCase();
+				if (file == 'classes' || lower == 'e.lua' || (lower.indexOf('.lua') < 0 && lower.indexOf('.hx') < 0))
+					continue;
+
+				#if LUA_ALLOWED
+				if (lower.endsWith('.lua'))
+				{
+					startLuaFile(folder + file);
+					continue;
+				}
+				#end
+
+				#if HSCRIPT_ALLOWED
+				if (lower.endsWith('.hx'))
+					startHScriptFile(folder + file);
+				#end
+			}
+		}
+	}
+
+	function normalizeScriptFolder(folder:String):String
+	{
+		if (folder == null)
+			return '';
+		folder = folder.replace('\\', '/');
+		if (!folder.endsWith('/'))
+			folder += '/';
+		return folder;
 	}
 	#end
 
 	#if HSCRIPT_ALLOWED
+	function startHScriptFile(scriptToLoad:String):Bool
+	{
+		scriptToLoad = normalizeScriptPath(scriptToLoad);
+		if (!AssetLoader.exists(scriptToLoad, TEXT))
+			return false;
+		if (Iris.instances.exists(scriptToLoad))
+			return false;
+
+		initHScript(scriptToLoad);
+		return true;
+	}
+
 	public function startHScriptsNamed(scriptFile:String)
 	{
 		#if MODS_ALLOWED
@@ -6993,15 +7030,7 @@ class PlayState extends MusicBeatState
 		var scriptToLoad:String = Paths.getSharedPath(scriptFile);
 		#end
 
-		if (AssetLoader.exists(scriptToLoad, TEXT))
-		{
-			if (Iris.instances.exists(scriptToLoad))
-				return false;
-
-			initHScript(scriptToLoad);
-			return true;
-		}
-		return false;
+		return startHScriptFile(scriptToLoad);
 	}
 
 	public function initHScript(file:String)

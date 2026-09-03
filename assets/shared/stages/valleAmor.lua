@@ -9,7 +9,7 @@ function fnfbeatsStageRate()
 end
 
 function onCreate()
-luaDebugMode = true
+luaDebugMode = false
 	makeLuaSprite('cielo', dir..'cielo', -1400, -1500)
 	setScrollFactor('cielo', 0.2, 0.2)
 	addLuaSprite('cielo', false)

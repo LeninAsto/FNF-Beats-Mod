@@ -145,7 +145,6 @@ class ScriptGlobals {
 			hxscript.Config.globalImports.set(path, ImportMode.INormal);
 		}
 
-		trace('[ScriptGlobals] registered=$registeredCount skipped=$skippedCount');
 	}
 
 	public static function inject(vars:Map<String, Dynamic>, ?mod:String):Void {

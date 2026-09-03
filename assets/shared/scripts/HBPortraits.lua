@@ -3,7 +3,7 @@ local portraitNames = {}
 local currentAnim = {'', ''}
 
 function onCreate()
-luaDebugMode = true
+luaDebugMode = false
 end
 
 function getChar(c)

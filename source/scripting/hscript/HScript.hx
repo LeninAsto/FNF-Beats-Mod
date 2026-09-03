@@ -77,7 +77,6 @@ class HScript {
 		}
 		#end
 
-		trace('[HScript/hxscript] setup complete; bridges=${scripting.bridges.Bridges.bases.join(", ")}');
 	}
 
 	public function new(?parent:Dynamic, ?file:String, ?varsToBring:Any = null, ?manualRun:Bool = false) {
@@ -99,7 +98,6 @@ class HScript {
 		#if MODS_ALLOWED
 		if (modFolder != null && backend.ModSecurity.isBlocked(modFolder)) {
 			blocked = true;
-			trace('[HScript/hxscript] blocked $file from untrusted mod "$modFolder"');
 			return;
 		}
 		#end
