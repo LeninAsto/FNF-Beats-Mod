@@ -16,6 +16,8 @@ class ScriptGlobals {
 	static var keepCutsceneHandler:Class<cutscenes.CutsceneHandler> = cutscenes.CutsceneHandler;
 	static var keepRainShader:Class<shaders.RainShader> = shaders.RainShader;
 	static var keepGameOverSubstate:Class<substates.GameOverSubstate> = substates.GameOverSubstate;
+	static var keepStickerSubState:Class<substates.StickerSubState> = substates.StickerSubState;
+	static var keepTitleState:Class<states.TitleState> = states.TitleState;
 	static var keepMainMenuState:Class<states.MainMenuState> = states.MainMenuState;
 	static var keepStoryMenuState:Class<states.StoryMenuState> = states.StoryMenuState;
 	static var keepFreeplayState:Class<states.FreeplayState> = states.FreeplayState;
@@ -57,6 +59,7 @@ class ScriptGlobals {
 		'scripting.ScriptError',
 		'cutscenes.CutsceneHandler',
 		'shaders.RainShader',
+		'states.TitleState',
 		'states.MainMenuState',
 		'states.StoryMenuState',
 		'states.PlayState',
@@ -67,6 +70,7 @@ class ScriptGlobals {
 		'states.LoadingState',
 		'options.OptionsState',
 		'substates.GameOverSubstate',
+		'substates.StickerSubState',
 		'flixel.FlxG',
 		'flixel.FlxBasic',
 		'flixel.FlxObject',

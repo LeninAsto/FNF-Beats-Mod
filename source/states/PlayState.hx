@@ -34,6 +34,7 @@ import states.editors.ChartingState;
 import states.editors.CharacterEditorState;
 import substates.PauseSubState;
 import substates.GameOverSubstate;
+import substates.StickerSubState;
 #if !flash
 import openfl.filters.ShaderFilter;
 #end
@@ -795,7 +796,11 @@ class PlayState extends MusicBeatState
 		{
 			#if LUA_ALLOWED
 			if (file.toLowerCase().endsWith('.lua'))
+			{
+				if (file.toLowerCase() == 'fnfbeats-vs-intro.lua')
+					trace('[FNFBEATS VS INTRO] loading global Lua from ${folder + file}');
 				new FunkinLua(folder + file);
+			}
 			#end
 
 			#if HSCRIPT_ALLOWED
@@ -803,6 +808,14 @@ class PlayState extends MusicBeatState
 				initHScript(folder + file);
 			#end
 		}
+		#end
+
+		#if LUA_ALLOWED
+		var fnfBeatsVsIntroLoaded:Bool = startLuasNamed('scripts/fnfbeats-vs-intro.lua');
+		trace('[FNFBEATS VS INTRO] explicit load result=' + fnfBeatsVsIntroLoaded);
+
+		var fnfBeatsHudLoaded:Bool = startLuasNamed('scripts/HBPortraits.lua');
+		trace('[FNFBEATS HUD] explicit load result=' + fnfBeatsHudLoaded);
 		#end
 
 		var camPos:FlxPoint = FlxPoint.get(girlfriendCameraOffset[0], girlfriendCameraOffset[1]);
@@ -4488,6 +4501,31 @@ class PlayState extends MusicBeatState
 		MusicBeatState.switchState(states.FreeplayStateSelector.create());
 	}
 
+	public function exitToFreeplayWithStickers():Void
+	{
+		#if DISCORD_ALLOWED DiscordClient.resetClientID(); #end
+		callOnScripts(scripting.ScriptHooks.SONG_EXIT);
+		deathCounter = 0;
+		seenCutscene = false;
+		changedDifficulty = false;
+		chartingMode = false;
+		canResync = false;
+		transitioning = true;
+
+		if (exitToScriptedStateIfNeeded())
+			return;
+
+		openSubState(new StickerSubState({
+			targetState: _ -> {
+				Mods.loadTopMod();
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				return FreeplayStateSelector.create();
+			},
+			stickerPack: StickerSubState.preferredPackForSong(SONG != null ? Paths.formatToSongPath(SONG.song) : null, WeekData.getWeekFileName()),
+			playOutOnTarget: true
+		}));
+	}
+
 	public function endSong()
 	{
 		mobileControls.instance.visible = #if !android touchPad.visible = #end
@@ -4550,49 +4588,9 @@ class PlayState extends MusicBeatState
 
 			if (!chartingMode && !isStoryMode)
 			{
-				if (ClientPrefs.data.resultsStateAtEnd && !cpuControlled)
-				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0.7, true);
-
-					MusicBeatState.switchState(backend.ScriptableState.tryCreate('ResultsState', new ResultsState({
-						score: songScore,
-						prevHighScore: Highscore.getScore(Song.loadedSongName, storyDifficulty),
-						accuracy: ratingPercent,
-						flawlesss: Rating.getHits(ratingsData, 'flawless'),
-						sicks: Rating.getHits(ratingsData, 'sick'),
-						goods: Rating.getHits(ratingsData, 'good'),
-						bads: Rating.getHits(ratingsData, 'bad'),
-						shits: Rating.getHits(ratingsData, 'shit'),
-						misses: songMisses,
-						maxCombo: maxCombo,
-						totalNotes: totalNotes,
-						songName: SONG.song,
-						difficulty: Difficulty.getString(),
-						isMod: Mods.currentModDirectory != null && Mods.currentModDirectory.length > 0,
-						modFolder: Mods.currentModDirectory,
-						isPractice: practiceMode,
-						ratingName: ratingName,
-						ratingFC: ratingFC
-					})));
-					transitioning = true;
-					return true;
-				}
-				else
-				{
-					trace('WENT BACK TO FREEPLAY??');
-					#if DISCORD_ALLOWED DiscordClient.resetClientID(); #end
-
-					canResync = false;
-					if (!exitToScriptedStateIfNeeded())
-					{
-						Mods.loadTopMod();
-						MusicBeatState.switchState(FreeplayStateSelector.create());
-						FlxG.sound.playMusic(Paths.music('freakyMenu'));
-					}
-					changedDifficulty = false;
-					transitioning = true;
-					return true;
-				}
+				trace('WENT BACK TO FREEPLAY??');
+				exitToFreeplayWithStickers();
+				return true;
 			}
 
 			if (chartingMode)
@@ -4627,110 +4625,19 @@ class PlayState extends MusicBeatState
 					#if DISCORD_ALLOWED DiscordClient.resetClientID(); #end
 					canResync = false;
 
-					if (ClientPrefs.data.resultsStateAtEnd)
+					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+
+					if (!ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.getGameplaySetting('botplay'))
 					{
-						FlxG.sound.playMusic(Paths.music('freakyMenu'));
+						StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
+						Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
 
-						var weekAccuracy:Float = 0;
-						if (campaignSongsCount > 0)
-						{
-							weekAccuracy = campaignAccuracySum / campaignSongsCount;
-						}
-
-						var allSongsName:String = campaignSongsPlayed.join(" + ");
-
-						var weekRatingName:String = '';
-						var weekRatingFC:String = '';
-
-						var ratingStuff:Array<Dynamic> = PlayState.getRatingStuff();
-						for (i in 0...ratingStuff.length)
-						{
-							if (weekAccuracy < ratingStuff[i][1])
-							{
-								weekRatingName = ratingStuff[i][0];
-								break;
-							}
-						}
-						if (weekRatingName == '')
-							weekRatingName = ratingStuff[ratingStuff.length - 1][0];
-
-						if (campaignMisses == 0)
-						{
-							if (campaignBads == 0 && campaignShits == 0)
-							{
-								if (campaignGoods == 0)
-								{
-									if (campaignSicks == 0)
-										weekRatingFC = Language.getPhrase('rating_efc', 'EFC');
-									else
-										weekRatingFC = Language.getPhrase('rating_sfc', 'SFC');
-								}
-								else
-									weekRatingFC = Language.getPhrase('rating_gfc', 'GFC');
-							}
-							else
-								weekRatingFC = Language.getPhrase('rating_fc', 'FC');
-						}
-						else
-						{
-							if (campaignMisses < 2)
-								weekRatingFC = Language.getPhrase('rating_smc', 'SMC');
-							else if (campaignMisses < 5)
-								weekRatingFC = Language.getPhrase('rating_lmc', 'LMC');
-							else if (campaignMisses < 10)
-								weekRatingFC = Language.getPhrase('rating_mmc', 'MMC');
-							else
-								weekRatingFC = Language.getPhrase('rating_clear', 'Clear');
-						}
-
-						if (!ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.getGameplaySetting('botplay'))
-						{
-							StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
-							Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
-
-							FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
-							FlxG.save.flush();
-						}
-						changedDifficulty = false;
-
-						MusicBeatState.switchState(backend.ScriptableState.tryCreate('ResultsState', new ResultsState({
-							score: campaignScore,
-							prevHighScore: Highscore.getWeekScore(WeekData.getWeekFileName(), storyDifficulty),
-							accuracy: weekAccuracy,
-							flawlesss: campaignFlawlesss,
-							sicks: campaignSicks,
-							goods: campaignGoods,
-							bads: campaignBads,
-							shits: campaignShits,
-							misses: campaignMisses,
-							maxCombo: campaignMaxCombo,
-							totalNotes: campaignTotalNotes,
-							songName: allSongsName,
-							difficulty: Difficulty.getString(),
-							isMod: Mods.currentModDirectory != null && Mods.currentModDirectory.length > 0,
-							modFolder: Mods.currentModDirectory,
-							isPractice: practiceMode,
-							ratingName: weekRatingName,
-							ratingFC: weekRatingFC,
-							isWeek: true
-						})));
+						FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
+						FlxG.save.flush();
 					}
-					else
-					{
-						FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					changedDifficulty = false;
 
-						if (!ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.getGameplaySetting('botplay'))
-						{
-							StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
-							Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
-
-							FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
-							FlxG.save.flush();
-						}
-						changedDifficulty = false;
-
-						MusicBeatState.switchState(backend.ScriptableState.tryCreate('StoryMenuState', new StoryMenuState()));
-					}
+					MusicBeatState.switchState(backend.ScriptableState.tryCreate('StoryMenuState', new StoryMenuState()));
 					transitioning = true;
 					return true;
 				}
@@ -4760,13 +4667,7 @@ class PlayState extends MusicBeatState
 				}
 			}
 
-			Mods.loadTopMod();
-			#if DISCORD_ALLOWED DiscordClient.resetClientID(); #end
-			canResync = false;
-			MusicBeatState.switchState(FreeplayStateSelector.create());
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
-			changedDifficulty = false;
-			transitioning = true;
+			exitToFreeplayWithStickers();
 		}
 		return true;
 	}
@@ -7065,6 +6966,9 @@ class PlayState extends MusicBeatState
 		if (AssetLoader.exists(luaToLoad, TEXT))
 		#end
 		{
+			if (luaFile.indexOf('stages/') == 0)
+				trace('[PlayState] loading stage Lua "$luaFile" from $luaToLoad');
+
 			for (script in luaArray)
 				if (script.scriptName == luaToLoad)
 					return false;
@@ -7072,6 +6976,8 @@ class PlayState extends MusicBeatState
 			new FunkinLua(luaToLoad);
 			return true;
 		}
+		if (luaFile.indexOf('fnfbeats') != -1 || luaFile.indexOf('HBPortraits') != -1 || luaFile.indexOf('stages/') == 0)
+			trace('[PlayState] Lua "$luaFile" not loaded; resolved path "$luaToLoad" does not exist');
 		return false;
 	}
 	#end

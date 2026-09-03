@@ -19,6 +19,7 @@ import flixel.util.FlxTimer;
 import lime.app.Application;
 import options.OptionsState;
 import states.FreeplayStateSelector;
+import states.TitleState;
 
 using StringTools;
 
@@ -288,8 +289,7 @@ class MainMenuState extends MusicBeatState {
 				if (!switchToState('StoryMenuState'))
 					MusicBeatState.switchState(new StoryMenuState());
 			case 'freeplay':
-				if (!switchToState('FreeplayState'))
-					MusicBeatState.switchState(FreeplayStateSelector.create());
+				MusicBeatState.switchState(FreeplayStateSelector.create());
 			case 'gallery':
 				if (!switchToState('StateLlenoDeCosas'))
 					selectedSomethin = false;

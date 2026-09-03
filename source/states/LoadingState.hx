@@ -476,7 +476,7 @@ class LoadingState extends MusicBeatState
 
 	static var isIntrusive:Bool = false;
 
-	static function getNextState(target:FlxState, stopMusic = false, intrusive:Bool = true):FlxState
+	public static function getNextState(target:FlxState, stopMusic = false, intrusive:Bool = true):FlxState
 	{
 		#if !SHOW_LOADING_SCREEN
 		intrusive = false;

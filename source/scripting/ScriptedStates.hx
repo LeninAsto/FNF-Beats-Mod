@@ -238,7 +238,7 @@ class ScriptedReturnState extends MusicBeatState {
 
 		done = true;
 		if (!ScriptedStates.switchToState(target, args, scope))
-			MusicBeatState.switchState(new states.MainMenuState());
+			MusicBeatState.switchState(backend.ScriptableState.tryCreate('MainMenuState', new states.MainMenuState()));
 	}
 }
 #end

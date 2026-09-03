@@ -1,14 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
--->
-<TextureAtlas imagePath="aves.png" width="829" height="277">
-	<SubTexture name="aves0000" x="2" y="2" width="387" height="112" frameX="-7" frameY="-30" frameWidth="442" frameHeight="151"/>
-	<SubTexture name="aves0001" x="2" y="2" width="387" height="112" frameX="-7" frameY="-30" frameWidth="442" frameHeight="151"/>
-	<SubTexture name="aves0002" x="431" y="131" width="393" height="144" frameX="-19" frameY="-0" frameWidth="442" frameHeight="151"/>
-	<SubTexture name="aves0003" x="431" y="131" width="393" height="144" frameX="-19" frameY="-0" frameWidth="442" frameHeight="151"/>
-	<SubTexture name="aves0004" x="2" y="131" width="427" height="133" frameX="-0" frameY="-7" frameWidth="442" frameHeight="151"/>
-	<SubTexture name="aves0005" x="2" y="131" width="427" height="133" frameX="-0" frameY="-7" frameWidth="442" frameHeight="151"/>
-	<SubTexture name="aves0006" x="391" y="2" width="436" height="127" frameX="-6" frameY="-23" frameWidth="442" frameHeight="151"/>
-	<SubTexture name="aves0007" x="391" y="2" width="436" height="127" frameX="-6" frameY="-23" frameWidth="442" frameHeight="151"/>
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="aves.png" width="400" height="334">
+	<!-- Created with Pydroid3 -->
+	<!-- By KyleFaz87 :bleh: -->
+	<SubTexture name="ave10000" x="2" y="2" width="179" height="69" frameX="-7" frameY="-30" frameWidth="203" frameHeight="99"/>
+	<SubTexture name="ave10001" x="2" y="2" width="179" height="69" frameX="-7" frameY="-30" frameWidth="203" frameHeight="99"/>
+	<SubTexture name="ave10002" x="183" y="2" width="170" height="88" frameX="-19" frameY="0" frameWidth="203" frameHeight="99"/>
+	<SubTexture name="ave10003" x="183" y="2" width="170" height="88" frameX="-19" frameY="0" frameWidth="203" frameHeight="99"/>
+	<SubTexture name="ave10004" x="2" y="92" width="197" height="79" frameX="0" frameY="-7" frameWidth="203" frameHeight="99"/>
+	<SubTexture name="ave10005" x="2" y="92" width="197" height="79" frameX="0" frameY="-7" frameWidth="203" frameHeight="99"/>
+	<SubTexture name="ave10006" x="201" y="92" width="197" height="60" frameX="-6" frameY="-23" frameWidth="203" frameHeight="99"/>
+	<SubTexture name="ave10007" x="201" y="92" width="197" height="60" frameX="-6" frameY="-23" frameWidth="203" frameHeight="99"/>
+	<SubTexture name="ave20000" x="2" y="173" width="140" height="59" frameX="-15" frameY="-28" frameWidth="199" frameHeight="89"/>
+	<SubTexture name="ave20001" x="2" y="173" width="140" height="59" frameX="-15" frameY="-28" frameWidth="199" frameHeight="89"/>
+	<SubTexture name="ave20002" x="144" y="173" width="150" height="89" frameX="-27" frameY="0" frameWidth="199" frameHeight="89"/>
+	<SubTexture name="ave20003" x="144" y="173" width="150" height="89" frameX="-27" frameY="0" frameWidth="199" frameHeight="89"/>
+	<SubTexture name="ave20004" x="2" y="264" width="199" height="68" frameX="0" frameY="-19" frameWidth="199" frameHeight="89"/>
+	<SubTexture name="ave20005" x="2" y="264" width="199" height="68" frameX="0" frameY="-19" frameWidth="199" frameHeight="89"/>
+	<SubTexture name="ave20006" x="203" y="264" width="184" height="48" frameX="-2" frameY="-40" frameWidth="199" frameHeight="89"/>
+	<SubTexture name="ave20007" x="203" y="264" width="184" height="48" frameX="-2" frameY="-40" frameWidth="199" frameHeight="89"/>
 </TextureAtlas>

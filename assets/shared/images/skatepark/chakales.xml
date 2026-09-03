@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="chakales.png" width="4451" height="4041">
+	<SubTexture name="chakal40000" x="4020" y="1585" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40001" x="4020" y="1585" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40002" x="4020" y="1585" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40003" x="4020" y="2000" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40004" x="4020" y="2000" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40005" x="3699" y="2943" width="338" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40006" x="4059" y="2830" width="339" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40007" x="4059" y="2830" width="339" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40008" x="4059" y="2830" width="339" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40009" x="4059" y="2830" width="339" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40010" x="4020" y="1585" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40011" x="4020" y="1585" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40012" x="4020" y="1585" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40013" x="4059" y="2415" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40014" x="4059" y="2415" width="338" height="413" frameX="-0" frameY="-442" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40015" x="4039" y="3243" width="338" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40016" x="3699" y="3356" width="338" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40017" x="3699" y="3356" width="338" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40018" x="3699" y="3356" width="338" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal40019" x="3699" y="3356" width="338" height="411" frameX="-0" frameY="-443" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal10000" x="1169" y="2709" width="852" height="1139" frameX="-0" frameY="-140" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10001" x="1169" y="2709" width="852" height="1139" frameX="-0" frameY="-140" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10002" x="2023" y="2709" width="841" height="1143" frameX="-5" frameY="-136" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10003" x="2023" y="2709" width="841" height="1143" frameX="-5" frameY="-136" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10004" x="2354" y="1366" width="831" height="1155" frameX="-10" frameY="-124" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10005" x="2354" y="1366" width="831" height="1155" frameX="-10" frameY="-124" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10006" x="2866" y="2523" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10007" x="2866" y="2523" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10008" x="3187" y="1366" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10009" x="3187" y="1366" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10010" x="3618" y="2" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10011" x="3618" y="2" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10012" x="3618" y="2" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10013" x="3618" y="2" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal10014" x="3618" y="2" width="831" height="1152" frameX="-10" frameY="-127" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20000" x="2" y="2" width="1233" height="1320" frameX="-2035" frameY="-42" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20001" x="2" y="2" width="1233" height="1320" frameX="-2035" frameY="-42" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20002" x="1237" y="2" width="1212" height="1342" frameX="-2046" frameY="-20" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20003" x="1237" y="2" width="1212" height="1342" frameX="-2046" frameY="-20" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20004" x="2" y="1324" width="1183" height="1352" frameX="-2060" frameY="-10" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20005" x="2" y="1324" width="1183" height="1352" frameX="-2060" frameY="-10" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20006" x="2451" y="2" width="1165" height="1362" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20007" x="2451" y="2" width="1165" height="1362" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20008" x="1187" y="1346" width="1165" height="1361" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20009" x="1187" y="1346" width="1165" height="1361" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20010" x="2" y="2678" width="1165" height="1361" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20011" x="2" y="2678" width="1165" height="1361" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20012" x="2" y="2678" width="1165" height="1361" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20013" x="2" y="2678" width="1165" height="1361" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal20014" x="2" y="2678" width="1165" height="1361" frameX="-2069" frameY="-0" frameWidth="3269" frameHeight="1362"/>
+	<SubTexture name="chakal30000" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30001" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30002" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30003" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30004" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30005" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30006" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30007" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30008" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30009" x="4020" y="1156" width="350" height="427" frameX="-281" frameY="-0" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30010" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30011" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30012" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30013" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30014" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30015" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30016" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30017" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30018" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+	<SubTexture name="chakal30019" x="3699" y="2520" width="358" height="421" frameX="-277" frameY="-6" frameWidth="635" frameHeight="855"/>
+</TextureAtlas>

@@ -70,6 +70,25 @@ class StickerSubState extends MusicBeatSubstate
 			regenStickers();
 	}
 
+	public static function preferredPackForSong(songPath:String, ?weekName:String):String
+	{
+		var candidates:Array<String> = [];
+		if (songPath != null && songPath.length > 0)
+			candidates.push('fnfbeats-song-' + songPath);
+		if (weekName != null && weekName.length > 0)
+			candidates.push('fnfbeats-' + weekName);
+		candidates.push('fnfbeats-default');
+		candidates.push('default');
+
+		for (candidate in candidates)
+		{
+			var pack = StickerPack.fromJson(candidate);
+			if (pack != null && pack.getStickers().length > 0)
+				return candidate;
+		}
+		return 'default';
+	}
+
 	static function resolveStickerPack(id:String):Null<StickerPack>
 	{
 		var packsToTry:Array<String> = [];
@@ -136,6 +155,26 @@ class StickerSubState extends MusicBeatSubstate
 		FlxTransitionableState.skipNextTransIn = true;
 		FlxTransitionableState.skipNextTransOut = true;
 		FlxG.switchState(() -> targetState(this));
+	}
+
+	static function playOutAfterFinalState(stickerPackId:String, oldStickers:Array<StickerSprite>):Void
+	{
+		FlxG.signals.postStateSwitch.addOnce(() ->
+		{
+			if (FlxG.state == null)
+				return;
+
+			if (Std.isOfType(FlxG.state, states.LoadingState))
+			{
+				playOutAfterFinalState(stickerPackId, oldStickers);
+				return;
+			}
+
+			FlxG.state.openSubState(new StickerSubState({
+				stickerPack: stickerPackId,
+				oldStickers: oldStickers
+			}));
+		});
 	}
 
 	function playRandomStickerSound():Void
@@ -256,16 +295,7 @@ class StickerSubState extends MusicBeatSubstate
 						if (playOutOnTarget)
 						{
 							oldStickers = grpStickers.members.copy();
-							FlxG.signals.postStateSwitch.addOnce(() ->
-							{
-								if (FlxG.state != null)
-								{
-									FlxG.state.openSubState(new StickerSubState({
-										stickerPack: stickerPackId,
-										oldStickers: oldStickers
-									}));
-								}
-							});
+							playOutAfterFinalState(stickerPackId, oldStickers);
 						}
 
 						FlxG.switchState(() -> targetState(this));
@@ -342,7 +372,7 @@ class StickerPack
 		if (id == null || id.length == 0)
 			return null;
 
-		var raw:String = Paths.getTextFromFile('data/stickerpacks/$id.json', true);
+		var raw:String = Paths.stripBOM(Paths.getTextFromFile('data/stickerpacks/$id.json', true));
 		if (raw == null || raw.length == 0)
 			return null;
 

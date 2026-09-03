@@ -10,6 +10,7 @@ import objects.MusicPlayer;
 import options.GameplayChangersSubstate;
 import options.OptionsMenuTheme;
 import substates.ResetScoreSubState;
+import substates.StickerSubState;
 import backend.ui.md3.MD3ShapeTools;
 import backend.ui.md3.MaterialTextField;
 import backend.ui.md3.MaterialWavyProgressIndicator;
@@ -1523,7 +1524,11 @@ class FreeplayState extends MusicBeatState
 				}
 				LoadingState.prepareToSong();
 				LoadingState.returnState = FreeplayStateSelector.create(); // Establecer estado de retorno
-				LoadingState.loadAndSwitchState(new PlayState());
+				openSubState(new StickerSubState({
+					targetState: _ -> LoadingState.getNextState(new PlayState(), false, false),
+					stickerPack: StickerSubState.preferredPackForSong(songLowercase, WeekData.getWeekFileName()),
+					playOutOnTarget: true
+				}));
 				#if !SHOW_LOADING_SCREEN FlxG.sound.music.stop(); #end
 				stopMusicPlay = true;
 				destroyFreeplayVocals();

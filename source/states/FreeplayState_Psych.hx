@@ -7,6 +7,7 @@ import objects.HealthIcon;
 import objects.MusicPlayerPsych;
 import options.GameplayChangersSubstate;
 import substates.ResetScoreSubState;
+import substates.StickerSubState;
 import flixel.math.FlxMath;
 import flixel.util.FlxDestroyUtil;
 import openfl.utils.Assets;
@@ -367,7 +368,7 @@ class FreeplayState_Psych extends MusicBeatState
 			{
 				persistentUpdate = false;
 				FlxG.sound.play(Paths.sound('cancelMenu'));
-				MusicBeatState.switchState(new MainMenuState());
+				MusicBeatState.switchState(backend.ScriptableState.tryCreate('MainMenuState', new MainMenuState()));
 			}
 		}
 
@@ -494,7 +495,11 @@ class FreeplayState_Psych extends MusicBeatState
 				Paths.freeGraphicsFromMemory();
 			}
 			LoadingState.prepareToSong();
-			LoadingState.loadAndSwitchState(new PlayState());
+			openSubState(new StickerSubState({
+				targetState: _ -> LoadingState.getNextState(new PlayState(), false, false),
+				stickerPack: StickerSubState.preferredPackForSong(songLowercase, WeekData.getWeekFileName()),
+				playOutOnTarget: true
+			}));
 			#if !SHOW_LOADING_SCREEN FlxG.sound.music.stop(); #end
 			stopMusicPlay = true;
 

@@ -31,7 +31,7 @@ function makePortraits(i)
 	local chr = i == 1 and 'dad' or 'boyfriend'
 	local icon = getProperty(chr..'.healthIcon')
 	local file = portraitExists(icon) and 'HBPortraits/'..icon or 'HBPortraits/face'
-	if file == 'face' and not portraitExists('face') then close(true) end
+	if file == 'HBPortraits/face' and not portraitExists('face') then close(true) end
 
 	local pName = 'Portrait'..i
 	if luaSpriteExists(pName) then removeLuaSprite(pName, true) end
@@ -71,7 +71,7 @@ function onUpdate()
 		local anim = (i == 1) and anim1 or anim2
 		local pName = portraits[i]
 
-		if currentAnim[i] ~= anim then
+		if pName ~= nil and luaSpriteExists(pName) and currentAnim[i] ~= anim then
 			playAnim(pName, anim, true)
 			currentAnim[i] = anim
 		end
@@ -80,10 +80,18 @@ end
 
 function onBeatHit()
 	for i = 0, 1 do
-		playAnim(portraitNames[i], 'name', true)
+		if portraitNames[i] ~= nil and luaSpriteExists(portraitNames[i]) then
+			playAnim(portraitNames[i], 'name', true)
+		end
 	end
+
+	local turnvalue = curBeat % 2 == 0 and -20 or 20
+	setProperty('iconP2.angle', -turnvalue)
+	setProperty('iconP1.angle', turnvalue)
+	doTweenAngle('iconTween1', 'iconP1', 0, crochet / 1000, 'circOut')
+	doTweenAngle('iconTween2', 'iconP2', 0, crochet / 1000, 'circOut')
 end
 
 function portraitExists(sprt)
-	return checkFileExists(currentModDirectory..'/images/HBPortraits/'..sprt..'.png') and checkFileExists(currentModDirectory..'/images/HBPortraits/'..sprt..'.xml')
+	return checkFileExists('images/HBPortraits/'..sprt..'.png') and checkFileExists('images/HBPortraits/'..sprt..'.xml')
 end

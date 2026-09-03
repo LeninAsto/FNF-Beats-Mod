@@ -1,0 +1,1 @@
+add = {justK/kyleSticker.png, justK/kyleSticker2.png, just/none.png}

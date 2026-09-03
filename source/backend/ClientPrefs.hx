@@ -175,7 +175,7 @@ import states.TitleState;
 	public var abbreviateScore:Bool = true;
 	public var dynamicComboDigits:Bool = false;
 	public var newfreeplay:Bool = true;
-	public var resultsStateAtEnd:Bool = true;
+	public var resultsStateAtEnd:Bool = false;
 	public var vanillaTransition:Bool = true; // Use vanilla Psych Engine transition instead of custom
 	public var pauseCountdown:Bool = false; // Enable countdown when resuming from pause
 	public var heyIntro:Bool = false; // Boyfriend and Girlfriend do Hey! animation on countdown Go!

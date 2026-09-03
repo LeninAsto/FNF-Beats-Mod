@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="compu.png">
-	<!-- Created with Adobe Animate version 22.0.2.168 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="compu0000" x="0" y="0" width="287" height="247"/>
-	<SubTexture name="compu0001" x="0" y="0" width="287" height="247"/>
-	<SubTexture name="compu0002" x="289" y="0" width="287" height="247"/>
-	<SubTexture name="compu0003" x="289" y="0" width="287" height="247"/>
-	<SubTexture name="compu0004" x="578" y="0" width="287" height="247"/>
-	<SubTexture name="compu0005" x="578" y="0" width="287" height="247"/>
-	<SubTexture name="compu0006" x="0" y="249" width="287" height="247"/>
-	<SubTexture name="compu0007" x="0" y="249" width="287" height="247"/>
-	<SubTexture name="compu0008" x="289" y="249" width="287" height="247"/>
-	<SubTexture name="compu0009" x="289" y="249" width="287" height="247"/>
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="compu.png" width="580" height="746">
+	<!-- Created with Pydroid3 -->
+	<!-- By KyleFaz87 :bleh: -->
+	<SubTexture name="compu0000" x="2" y="2" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0001" x="2" y="2" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0002" x="291" y="2" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0003" x="291" y="2" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0004" x="2" y="250" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0005" x="2" y="250" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0006" x="291" y="250" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0007" x="291" y="250" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0008" x="2" y="498" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
+	<SubTexture name="compu0009" x="2" y="498" width="287" height="246" frameX="0" frameY="0" frameWidth="287" frameHeight="247"/>
 </TextureAtlas>

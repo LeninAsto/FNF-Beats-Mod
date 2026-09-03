@@ -275,7 +275,7 @@ class OptionsState extends MusicBeatState
 				else
 				{
 					clearSubstateTransition();
-					MusicBeatState.switchState(new MainMenuState());
+					MusicBeatState.switchState(backend.ScriptableState.tryCreate('MainMenuState', new MainMenuState()));
 				}
 			}
 			else if (controls.ACCEPT && options != null && options.length > 0)
