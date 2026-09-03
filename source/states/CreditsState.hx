@@ -48,7 +48,37 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [
-			// Name - Icon name - Description - Link - BG Color
+			["Fnf Beats Team"],
+			[
+				"BoonZaid",
+				"noobsai3571",
+				"Director and Main Mod Artist",
+				"https://twitter.com/noobsai3571",
+				"C560C8"
+			],
+			[
+				"KyleFaz87",
+				"KyleFaz87",
+				"Porter, Coder, a.k.a Gato negocios :3",
+				"https://www.youtube.com/@kylefaz1987",
+				"DC3DAF"
+			],
+
+			[
+				"TheMeri",
+				"_",
+				"Se comió al de arriba para estar aqui",
+				"https://www.google.com",
+				"808080"
+			],
+			[
+				'Lenin Asto',
+				"len",
+				"Solo soy coder tambien de este mod, BOMBARDEEN PERÚ!!!",
+				"https://www.youtube.com/@Lenin_Anonimo_Of",
+				"03FC88"
+			],
+			[''],
 			['Plus Engine Team'],
 			[
 				'Lenin Asto',
@@ -65,6 +95,13 @@ class CreditsState extends MusicBeatState
 				'7FDBFF'
 			],
 			[
+				"AutisticLulu",
+				"lulu",
+				"Psych Engine 1.0.x fixes and maintenance",
+				"https://github.com/MeguminBOT/FNF-PsychEngine",
+				"C7A0FF"
+			],
+			[
 				'Andres',
 				'slushi',
 				'Creator and owner of several codes used based on the Slushi Engine',
@@ -78,14 +115,8 @@ class CreditsState extends MusicBeatState
 				"https://github.com/TheoDevelops",
 				"FFB347"
 			],
-			[
-				"AutisticLulu",
-				"lulu",
-				"Psych Engine 1.0.x fixes and maintenance",
-				"https://github.com/MeguminBOT/FNF-PsychEngine",
-				"C7A0FF"
-			],
 			[''],
+			#if mobile
 			['Mobile Porting Team'],
 			[
 				'HomuHomu833',
@@ -109,6 +140,7 @@ class CreditsState extends MusicBeatState
 				'F592C4'
 			],
 			[''],
+			#end
 			["Psych Engine Team"],
 			[
 				"Shadow Mario",
